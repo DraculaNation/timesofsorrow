@@ -4,7 +4,14 @@ ideologies = {
 	
 		types = {
 			
-			authoritarian_subtype = { }
+			absolutist = {
+			}
+		
+			republicanist = {
+			}
+		
+			authoritarian_other = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -25,17 +32,17 @@ ideologies = {
 			can_puppet = yes
 			can_lower_tension = no
 			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
+			can_guarantee_other_ideologies = no
 		}
 		
 		war_impact_on_world_tension = 1.0
 		faction_impact_on_world_tension = 0.5
 		
 		modifiers = {
-			generate_wargoal_tension = 0.50
-			join_faction_tension = 0.30
-			lend_lease_tension = 0.30
-			send_volunteers_tension = 0.10
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
 			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
@@ -49,11 +56,18 @@ ideologies = {
 	}
 
 
-	socialism = {
+	socialist = {
 		
 		types = {
 		
-			socialism_subtype = { }
+			communist = {
+			}
+			
+			anarchist = {
+			}
+			
+			socialist_other = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -72,7 +86,7 @@ ideologies = {
 		ai_communist = yes # uses the commie AI behaviour
 		
 		rules = {
-			can_force_government = no
+			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
@@ -87,11 +101,17 @@ ideologies = {
 
 	}
 
-	nationalism = {
+	nationalist = {
 	
 		types = {
 		
-			nationalism_subtype = {
+			fascist = {
+			}
+			
+			national_socialist = {
+			}
+			
+			nationalist_other = {
 			}
 		}
 		
@@ -125,7 +145,13 @@ ideologies = {
 	
 		types = {
 		
-			disjointed  = {
+			democratic = {
+			}
+			
+			autonomist = {
+			}
+			
+			disjointed_other = {
 			}
 		}
 
@@ -149,6 +175,7 @@ ideologies = {
 			can_send_volunteers = no
 		}
 		
+		
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
 			generate_wargoal_tension = 0.5
@@ -159,8 +186,11 @@ ideologies = {
 			drift_defence_factor = -0.3	
 		}
 		
+		modifiers = {
+			political_power_gain = -0.5
+		}
+		
 		faction_modifiers = {
-		political_power_gain = -0.5
 		}
 
 		can_be_boosted = no
