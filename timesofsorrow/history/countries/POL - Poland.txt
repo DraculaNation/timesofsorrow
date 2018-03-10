@@ -29,23 +29,23 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
 			popularity = 0
 		}
 		
+		communism = {
+			popularity = 90
+		}
+		
 		neutrality = { 
-			popularity = 70
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = no
@@ -63,9 +63,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Władysław Gomułka"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
+	name = "Karl Radek"
+	desc = ""
+	picture = "gfx/leaders/POL/KarlRadek.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
