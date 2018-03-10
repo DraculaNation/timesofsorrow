@@ -23,6 +23,10 @@ set_technology = {
 	trench_warfare = 1
 }
 
+add_ideas = {
+	POL_idea_ssr_poland
+}
+
 set_convoys = 0
 
 set_politics = {

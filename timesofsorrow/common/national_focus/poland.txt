@@ -1,0 +1,31 @@
+focus_tree = {
+	id = polish_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = POL_focus_defend_homeland
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 0
+		cost = 5
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			swap_ideas = { remove_idea = POL_idea_ssr_poland add_idea = POL_idea_ssr_poland_2 }	
+		}
+	}	
+
+}		
