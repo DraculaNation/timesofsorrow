@@ -1,0 +1,19 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		6647 11577 11580 
+	}
+	manpower=306400
+	buildings_max_level_factor=1.000
+	history={
+		owner = SER
+
+		buildings = {
+			infrastructure = 4
+		}
+
+		add_core_of = SER
+		add_core_of = CRO
+	}
+}

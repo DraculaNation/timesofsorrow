@@ -1,0 +1,17 @@
+state={
+	id=765
+	name="STATE_765"
+	provinces={
+		614 3614 6643 11787 
+	}
+	history={
+		owner = SER
+
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SER
+	}
+	manpower=616400
+	buildings_max_level_factor=1.000
+}
