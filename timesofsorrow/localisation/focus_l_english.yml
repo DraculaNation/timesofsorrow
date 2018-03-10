@@ -2054,3 +2054,7 @@
  unlocks_decision:0 "Unlocks Decision:"
  POL_focus_defend_homeland:0 "Defense of the Homeland"
  POL_focus_defend_homeland_desc:0 "We must not let the enemy subjugate our homeland!"
+ POL_focus_defend_air:0 "Keeping the Skies clear"
+ POL_focus_defend_air_desc:0 "Our airspace must not be occupied by the enemy, so we must construct anti-air fortifications!"
+ POL_focus_defend_land:0 "Northern Fortification"
+ POL_focus_defend_land_desc:0 "We must fortify the parts along the German border where we are most likely to face an attack."

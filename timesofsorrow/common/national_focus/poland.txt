@@ -26,6 +26,64 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = { remove_idea = POL_idea_ssr_poland add_idea = POL_idea_ssr_poland_2 }	
 		}
-	}	
+	}
+
+	focus = {
+		id = POL_focus_defend_air
+		icon = GFX_goal_generic_build_airforce
+		x = 1
+		y = 1
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_defend_homeland }
+		available = {
+			POL = { controls_state = 87 }
+			POL = { controls_state = 98 }
+			POL = { controls_state = 88 }
+			POL = { controls_state = 90 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			87 = { add_building_construction = { type = anti_air_building level = 1 instant_build = yes } }
+			88 = { add_building_construction = { type = anti_air_building level = 1 instant_build = yes } }
+			90 = { add_building_construction = { type = anti_air_building level = 1 instant_build = yes } }
+			98 = { add_building_construction = { type = anti_air_building level = 1 instant_build = yes } }
+		}
+	}
+	
+	focus = {
+		id = POL_focus_defend_land
+		icon = GFX_goal_generic_construct_military
+		x = 3
+		y = 1
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_defend_homeland }
+		available = {
+			POL = { controls_state = 87 }
+			POL = { controls_state = 98 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			87 = { add_building_construction = { type = bunker province = 584  level = 1 instant_build = yes } }
+			87 = { add_building_construction = { type = bunker province = 9546 level = 1 instant_build = yes } }
+			87 = { add_building_construction = { type = bunker province = 9439 level = 1 instant_build = yes } }
+			87 = { add_building_construction = { type = bunker province = 11515 level = 1 instant_build = yes } }
+			98 = { add_building_construction = { type = bunker province = 6401 level = 1 instant_build = yes } }
+			98 = { add_building_construction = { type = bunker province = 3230 level = 1 instant_build = yes } }
+			98 = { add_building_construction = { type = bunker province = 6321 level = 1 instant_build = yes } }
+			98 = { add_building_construction = { type = bunker province = 6347 level = 1 instant_build = yes } }
+			98 = { add_building_construction = { type = bunker province = 9290 level = 1 instant_build = yes } }
+			98 = { add_building_construction = { type = bunker province = 9316 level = 1 instant_build = yes } }
+		}
+	}
 
 }		
