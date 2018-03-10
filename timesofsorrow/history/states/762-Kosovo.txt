@@ -16,4 +16,5 @@ state={
 		add_core_of = ALB
 		add_core_of = SER
 	}
+	state_category = town
 }

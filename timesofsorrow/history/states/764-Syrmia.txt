@@ -16,4 +16,5 @@ state={
 		add_core_of = SER
 		add_core_of = CRO
 	}
+	state_category = town
 }
