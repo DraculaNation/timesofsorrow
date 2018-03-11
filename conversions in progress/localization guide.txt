@@ -1,0 +1,24 @@
+communism -> socialist
+democratic -> authoritarian
+fascism -> nationalist
+neutrality -> disjointed
+
+conservatism -> republicanist
+liberalism -> authoritarian (other)
+socialism -> authoritarian (other)
+
+marxism -> communist
+leninism -> communist
+stalinism -> communist
+anti_revisionism -> socialist (other)
+anarchist_communist -> anarchism
+
+nazism -> national socialism
+fascism_ideology -> fascist
+falangism -> nationalist (other)
+rexism -> nationalist (other)
+
+despotism -> disjointed (other)
+oligarchic -> disjointed (other)
+moderatism -> democratic
+centrism -> democratic
