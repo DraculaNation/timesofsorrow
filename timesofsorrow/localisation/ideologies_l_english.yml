@@ -1,5 +1,15 @@
 ﻿l_english:
-authoritarian:0 "Authoritarian"
-socialist:0 "Socialist"
-disjointed:0 "Disjointed"
-nationalist:0 "Nationalist"
+democratic:0 "Authoritarian"
+communism:0 "Socialist"
+neutrality:0 "Disjointed"
+fascism:0 "Nationalist"
+
+conservatism:0 "Republicanist"
+conservatism_desc:0 "Although having democratic principles, republicansists carefully balance power between various factions in the state, usually with the people having little to no influence. This enables the government to perform actions that would otherwise be met with significant political resistance, such as declaring war on other countries. The term 'republicanist' can also be extended to encompass various, corruption-filled, flawed democracies in the world, where the ruling party always wins."
+liberalism:0 "Authoritarian"
+liberalism_desc:0 "Authoritarian is a catch-all term describing veirous form of authoritarian governments all over the world. An authoritarian government holds significant power over its people, but unlike fascism and any other nationalist ideologies, the government rarely listens to its people, and instead focuses on their own plans. Authoritarianism is often represented in absolutist monarchies and military juntas, as well as some governments under martial law."
+socialism:0 "Authoritarian"
+socialism_desc:0 "Authoritarian is a catch-all term describing veirous form of authoritarian governments all over the world. An authoritarian government holds significant power over its people, but unlike fascism and any other nationalist ideologies, the government rarely listens to its people, and instead focuses on their own plans. Authoritarianism is often represented in absolutist monarchies and military juntas, as well as some governments under martial law."
+
+marxism:0 "Communist"
+marxism_desc:0 "Communism is a term encompassing all socialist governments, where the state owns most of the property, while also sharing it with its citizens. Communist countries have planned economies, in an attempt to fight both capitalist and fascist elements in the world. Communism even has several schools of though, most based on a specific person's philosophies, like Vladimir Lenin or Karl Marx."
