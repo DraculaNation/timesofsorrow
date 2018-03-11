@@ -1,42 +1,42 @@
 ideologies = {
 	
-	authoritarian = {
+	democratic = {
 	
 		types = {
 			
-			absolutist = {
+			conservatism = {
 			}
 		
-			republicanist = {
+			liberalism = {
 			}
 		
-			authoritarian_other = {
+			socialism = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTHORITARIAN_1"
-			"FACTION_NAME_AUTHORITARIAN_2"
-			"FACTION_NAME_AUTHORITARIAN_3"
-			"FACTION_NAME_AUTHORITARIAN_4"
-			"FACTION_NAME_AUTHORITARIAN_5"
-			"FACTION_NAME_AUTHORITARIAN_6"
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 19 47 150 }
+		color = { 9 23 75 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = yes
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
 		}
 		
-		war_impact_on_world_tension = 1.0
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
 			generate_wargoal_tension = 1.00
@@ -52,41 +52,46 @@ ideologies = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
 		ai_democratic = yes # uses the democratic AI behaviour
-		can_be_boosted = no
 	}
 
 
-	socialist = {
+	communism = {
 		
 		types = {
 		
-			communist = {
+			marxism = {
 			}
 			
-			anarchist = {
+			leninism = {
 			}
 			
-			socialist_other = {
+			stalinism = {
+			}
+			
+			anti_revisionism = {
+			}
+			
+			anarchist_communism = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIALIST_1"
-			"FACTION_NAME_SOCIALIST_2"
-			"FACTION_NAME_SOCIALIST_3"
-			"FACTION_NAME_SOCIALIST_4"
-			"FACTION_NAME_SOCIALIST_5"
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 232 38 9 }
+		color = { 232 58 39 }
 		
-		war_impact_on_world_tension = 2.00		#Commie less threatening
-		faction_impact_on_world_tension = 1.0
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
 		
 		ai_communist = yes # uses the commie AI behaviour
 		
 		rules = {
-			can_force_government = yes
+			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
@@ -101,32 +106,35 @@ ideologies = {
 
 	}
 
-	nationalist = {
+	fascism = {
 	
 		types = {
 		
-			fascist = {
+			nazism = {
 			}
 			
-			national_socialist = {
+			fascism_ideology = {
 			}
 			
-			nationalist_other = {
+			falangism = {
+			}
+			
+			rexism = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_NATIONALIST_1"
-			"FACTION_NAME_NATIONALIST_2"
-			"FACTION_NAME_NATIONALIST_3"
-			"FACTION_NAME_NATIONALIST_4"
-			"FACTION_NAME_NATIONALIST_5"
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 145 80 10 }
+		color = { 185 120 50 }
 		
-		war_impact_on_world_tension = 3.0			#evil!
-		faction_impact_on_world_tension = 2.0
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
 		
 		rules = {
 			can_force_government = no
@@ -141,26 +149,29 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	disjointed = {
+	neutrality = {
 	
 		types = {
 		
-			democratic = {
+			despotism  = {
 			}
 			
-			autonomist = {
+			oligarchism  = {
 			}
 			
-			disjointed_other = {
+			moderatism = {
+			}
+			
+			centrism = {
 			}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_DISJOINTED_1"
-			"FACTION_NAME_DISJOINTED_2"
-			"FACTION_NAME_DISJOINTED_3"
-			"FACTION_NAME_DISJOINTED_4"
-			"FACTION_NAME_DISJOINTED_5"
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
 		}
 		
 		color = { 80 99 94 }
@@ -175,7 +186,6 @@ ideologies = {
 			can_send_volunteers = no
 		}
 		
-		
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
 			generate_wargoal_tension = 0.5
@@ -184,9 +194,6 @@ ideologies = {
 			send_volunteers_tension = 0.4
 			guarantee_tension = 0.4
 			drift_defence_factor = -0.3	
-		}
-		
-		modifiers = {
 			political_power_gain = -0.5
 		}
 		
