@@ -3,7 +3,7 @@ ideas = {
 country = {
 	POL_idea_ssr_poland = {
 		allowed = {
-				always = yes
+			always = yes
 		}
 		
 		removal_cost = -1
@@ -16,7 +16,7 @@ country = {
 	}
 	POL_idea_ssr_poland_2 = {
 		allowed = {
-				always = yes
+			always = yes
 		}
 		
 		removal_cost = -1
@@ -26,6 +26,19 @@ country = {
 		modifier = {
 			conscription_factor = 0.1
 			army_core_defence_factor = 0.1
+		}
+	}
+	POL_idea_communism_drift = {
+		allowed = {
+			always = yes
+		}
+		
+		removal_cost = -1
+		
+		picture = generic_communism_drift_bonus
+		
+		modifier = {
+			communism_drift = 0.05
 		}
 	}
 }

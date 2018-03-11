@@ -1,4 +1,4 @@
-add_namespace = tos_poland
+﻿add_namespace = tos_poland
 
 #The eastern Threat
 country_event = {
@@ -17,5 +17,59 @@ country_event = {
 		option = {
 			name = tos_poland.1.a
 			ai_chance = { factor = 100 }
+		}
+}
+
+#Poland wants autonomy
+country_event = {
+		id = tos_poland.2
+		title = tos_poland.2.t
+		desc = tos_poland.2.d
+		picture = GFX_report_event_soviet_finnish_pact
+		
+		is_triggered_only = yes
+		
+		option = {
+			name = tos_poland.2.a
+			ai_chance = { factor = 50 }
+			POL = { country_event = { days = 1 id = tos_poland.3 } }
+		}
+		
+		option = {
+			name = tos_poland.2.b
+			ai_chance = { factor = 50 }
+			POL = { country_event = { days = 1 id = tos_poland.4 } }
+		}
+}
+
+#The Soviets say Yes
+country_event = {
+		id = tos_poland.3
+		title = tos_poland.3.t
+		desc = tos_poland.3.d
+		picture = GFX_report_event_canada_treaty
+		
+		is_triggered_only = yes
+		
+		option = {
+			name = tos_poland.3.a
+			ai_chance = { factor = 100 }
+			set_autonomy = { target = POL autonomy_state = autonomy_free }
+		}
+}
+
+#The Soviets say No
+country_event = {
+		id = tos_poland.4
+		title = tos_poland.4.t
+		desc = tos_poland.4.d
+		picture = GFX_report_event_canada_treaty
+		
+		is_triggered_only = yes
+		
+		option = {
+			name = tos_poland.4.a
+			ai_chance = { factor = 100 }
+			add_political_power = -25
 		}
 }
