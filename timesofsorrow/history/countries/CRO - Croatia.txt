@@ -36,7 +36,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = "POLITICS_STJEPAN_RADIC_DESC"
 	picture = "Portrait_Croatia_Stjepan_Radic.dds"
 	expire = "1965.1.1"
-	ideology = oligarchic
+	ideology = oligarchism
 	traits = {
 		#
 	}

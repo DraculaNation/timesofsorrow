@@ -36,11 +36,11 @@ set_politics = {
 			popularity = 10
 		}
 
-		fascist = {
+		fascism = {
 			popularity = 0
 		}
 		
-		communist = {
+		communism = {
 			popularity = 90
 		}
 		
@@ -49,7 +49,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = communist
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = no
@@ -60,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
-	ideology = conservativism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_WINCENTY_WITOS_DESC"
 	picture = "GFX_POL_wincenty_witos"
 	expire = "1965.1.1"
-	ideology = oligarchic
+	ideology = oligarchism
 	traits = {
 		#
 	}
