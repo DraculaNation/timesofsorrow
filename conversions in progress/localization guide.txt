@@ -5,7 +5,7 @@ neutrality -> disjointed
 
 conservatism -> republicanist
 liberalism -> authoritarian (other)
-socialism -> authoritarian (other)
+socialism -> absolutist
 
 marxism -> communist
 leninism -> communist
@@ -19,6 +19,6 @@ falangism -> nationalist (other)
 rexism -> nationalist (other)
 
 despotism -> disjointed (other)
-oligarchic -> disjointed (other)
+oligarchic -> autonomist
 moderatism -> democratic
 centrism -> democratic

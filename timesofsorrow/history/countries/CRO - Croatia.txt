@@ -20,61 +20,34 @@ set_technology = {
 
 set_convoys = 5
 
-
 set_politics = {
 
 	parties = {
-		authoritarian = { 
-			popularity = 25
+		democratic = { 
+			popularity = 15
 		}
 
-		nationalist = {
-			popularity = 5
+		fascism = {
+			popularity = 75
 		}
 		
-		socialist = {
+		communism = {
 			popularity = 10
-		}
-		
-		disjointed = {
-			popularity = 60
 		}
 	}
 	
-	ruling_party = disjointed
+	ruling_party = fascism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
 }
 
 create_country_leader = {
-	name = "Ante Pavelić"
-	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
+	name = "Aloysius Stepinac"
+	desc = "ALOYSIUS_STEPINAC_DESC"
+	picture = "Portrait_Croatia_Aloysius_Stepinac.dds"
 	expire = "1965.1.1"
-	ideology = national_socialist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Stjepan Radić"
-	desc = "STJEPAN_RADIC_DESC"
-	picture = "Portrait_Croatia_Stjepan_Radic.dds"
-	expire = "1965.1.1"
-	ideology = autonomist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vladko Maček"
-	desc = "VLADKO_MACEK_DESC"
-	picture = "Portrait_Croatia_Vladko_Macek.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_other
+	ideology = falangism
 	traits = {
 		#
 	}
@@ -82,10 +55,32 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Josip Broz Tito"
-	desc = "JOSIP_BROZ_TITO_DESC"
-	picture = "Portrait_Croatia_Josip_Broz.dds"
+	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
+	picture = "Portrait_Croatia_Josip_Broz_Tito.dds"
 	expire = "1965.1.1"
-	ideology = socialist_other
+	ideology = anti_revisionism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Stjepan Radić"
+	desc = "POLITICS_STJEPAN_RADIC_DESC"
+	picture = "Portrait_Croatia_Stjepan_Radic.dds"
+	expire = "1965.1.1"
+	ideology = oligarchic
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vladko Maček"
+	desc = "POLITICS_VLADKO_MACEK_DESC"
+	picture = "Portrait_Croatia_Vladko_Macek.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
 	traits = {
 		#
 	}

@@ -11,24 +11,24 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		authoritarian = { 
-			popularity = 30
-		}
-
-		nationalist = {
+		democratic = { 
 			popularity = 40
 		}
-		
-		disjointed = {
-			popularity = 15
+
+		fascism = {
+			popularity = 60
 		}
 		
-		socialist = { 
-			popularity = 15
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 0
 		}
 	}
 	
-	ruling_party = nationalist
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,11 +38,11 @@ set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog I"
+	name = "King Zog"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
-	ideology = monarchist
+	ideology = socialism
 	traits = {
 		#
 	}
@@ -50,10 +50,10 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Ali Këlcyra"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_King_Zog.dds"
+	desc = "POLITICS_ALI_KELCYRA_DESC"
+	picture = "Portrait_Albania_Ali_Kelcyra.dds"
 	expire = "1965.1.1"
-	ideology = nationalist_other
+	ideology = rexism
 	traits = {
 		#
 	}
