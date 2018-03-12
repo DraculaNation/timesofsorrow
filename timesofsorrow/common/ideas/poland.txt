@@ -41,6 +41,32 @@ country = {
 			communism_drift = 0.05
 		}
 	}
+	POL_idea_polish_com_influence = {
+		allowed = {
+			always = yes
+		}
+		
+		removal_cost = -1
+		
+		picture = home_of_revolution
+		
+		modifier = {
+			communism_drift = 0.02
+		}
+	}
+	POL_idea_polish_army = {
+		allowed = {
+			always = yes
+		}
+		
+		removal_cost = -1
+		
+		picture = generic_reserve_divisions
+		
+		modifier = {
+			army_org_Factor = 0.05
+		}
+	}
 }
 
 

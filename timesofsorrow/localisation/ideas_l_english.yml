@@ -2529,3 +2529,7 @@
  POL_idea_ssr_poland_2_desc:0 "The Polish Soviet Socialist Republic, officially established in Poland after the subjugation by the Soviet Union, has, albeit being rather new and slightly unstable, managed to capture a spirit of patriotism of the Polish People for itself."
  POL_idea_communism_drift:0 "Communist Propaganda"
  POL_idea_communism_drift_desc:0 "The Polish Government is pushing for widespread acceptance of communism as the only acceptable ideology."
+ POL_idea_polish_com_influence:0 "Communist Influences"
+ POL_idea_polish_com_influence_desc:0 "This country is affected by political subversion: A neighboring country is trying to drift them towards §YCommunism§!."
+ POL_idea_polish_army:0 "The Polish Army"
+ POL_idea_polish_army_desc:0 "The Polish Army has undergone some reforms to make it more efficient."

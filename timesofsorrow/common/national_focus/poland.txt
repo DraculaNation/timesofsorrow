@@ -189,5 +189,99 @@ focus_tree = {
 			SOV = { country_event = { id = tos_poland.2 } }
 		}
 	}
+	
+	focus = {
+		id = POL_focus_internal_politics
+		icon = GFX_focus_generic_support_the_left_right
+		x = 9
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_entrench_communism }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = POL_focus_spread_communism
+		icon = GFX_goal_generic_propaganda
+		x = 8
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_internal_politics }
+		prerequisite = { focus = POL_focus_request_autonomy }
+		available = {
+			POL = { has_government = communism }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			CZE = { add_ideas = POL_idea_polish_com_influence }
+			SLO = { add_ideas = POL_idea_polish_com_influence }
+		}
+	}
+	
+	focus = {
+		id = POL_focus_the_polish_army
+		icon = GFX_goal_support_communism
+		x = 12
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_ideas = POL_idea_polish_army
+		}
+	}
+	
+	focus = {
+		id = POL_focus_new_infantry_weapons
+		icon = GFX_goal_generic_small_arms
+		x = 11
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_the_polish_army }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = infantry_weapons }
+		}
+	}
+	
+	focus = {
+		id = POL_focus_new_tactics
+		icon = GFX_goal_generic_air_doctrine
+		x = 13
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_the_polish_army }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = land_doctrine }
+		}
+	}
 
 }		
