@@ -37,8 +37,8 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 98
+		neutrality = { 
+			popularity = 43
 		}
 
 		fascism = {
@@ -46,8 +46,12 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 5
 			#banned = no #default is no
+		}
+		
+		democratic = {
+			popularity = 42
 		}
 	}
 	
@@ -58,11 +62,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "John Curtin"
-	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "Portrait_Australia_John_Curtin.dds"
+	name = "Thomas Blamey"
+	desc = "POLITICS_THOMAS_BLAMEY_DESC"
+	picture = "Portrait_Australia_Thomas_Blamey.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = liberalism
 	traits = {
 		#
 	}
