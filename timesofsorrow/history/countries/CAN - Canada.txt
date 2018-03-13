@@ -44,7 +44,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 98
+			popularity = 78
 		}
 
 		fascism = {
@@ -54,6 +54,10 @@ set_politics = {
 		communism = {
 			popularity = 1
 			#banned = no #default is no
+		}
+		
+		neutrality = {
+			popularity = 20
 		}
 	}
 	
@@ -96,33 +100,19 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 100
-set_stability = 0.75
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 98
-			}
-
-			fascism = {
-				popularity = 1
-			}
-			
-			communism = {
-				popularity = 1
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1935.10.14"
-		election_frequency = 60
-		elections_allowed = yes
+create_country_leader = {
+	name = "Lionel Groulx"
+	desc = "POLITICS_LIONEL_GROULX_DESC"
+	picture = "Portrait_Canada_Lionel_Grouxl.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
 	}
 }
+
+set_convoys = 100
+set_stability = 0.75
 
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
