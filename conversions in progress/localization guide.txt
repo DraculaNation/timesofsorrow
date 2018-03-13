@@ -19,6 +19,6 @@ falangism -> nationalist (other)
 rexism -> nationalist (other)
 
 despotism -> disjointed (other)
-oligarchic -> autonomist
+oligarchism -> autonomist
 moderatism -> democratic
 centrism -> democratic

@@ -52,7 +52,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Alexander I Karađorđević"
+	name = "Alexander I"
 	desc = ""
 	picture = "Portrait_Serbia_Alexander_I.tga"
 	expire = "1965.1.1"
