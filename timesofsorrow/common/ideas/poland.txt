@@ -67,6 +67,34 @@ country = {
 			army_org_Factor = 0.05
 		}
 	}
+	POL_idea_polish_army_people = {
+		allowed = {
+			always = yes
+		}
+		
+		removal_cost = -1
+		
+		picture = generic_reserve_divisions
+		
+		modifier = {
+			conscription = 0.005
+		}
+	}
+	POL_idea_polish_army_elite = {
+		allowed = {
+			always = yes
+		}
+		
+		removal_cost = -1
+		
+		picture = generic_reserve_divisions
+		
+		modifier = {
+			army_org_Factor = 0.05
+			communism_drift = 0.02
+			conscription_factor = -0.1
+		}
+	}
 }
 
 

@@ -180,7 +180,6 @@ focus_tree = {
 		available = {
 			POL = { is_subject_of = SOV }
 		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -198,7 +197,6 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = no
 		prerequisite = { focus = POL_focus_entrench_communism }
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -220,7 +218,6 @@ focus_tree = {
 		available = {
 			POL = { has_government = communism }
 		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -238,7 +235,6 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available_if_capitulated = no
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -256,7 +252,6 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = no
 		prerequisite = { focus = POL_focus_the_polish_army }
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -274,13 +269,115 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = no
 		prerequisite = { focus = POL_focus_the_polish_army }
-
 		ai_will_do = {
 			factor = 1
 		}
 
 		completion_reward = {
 			add_tech_bonus = { bonus = 0.5 uses = 1 category = land_doctrine }
+		}
+	}
+	
+	focus = {
+		id = POL_focus_army_training
+		icon = GFX_focus_generic_little_entente
+		x = 12
+		y = 2
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_new_infantry_weapons focus = POL_focus_new_tactics }
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+	
+	focus = {
+		id = POL_focus_peoples_army
+		icon = GFX_focus_YUG_pan_slavic_congress
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_army_training }
+		mutually_exclusive = { focus = POL_focus_restrict_army_access }
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			swap_ideas = { remove_idea = POL_idea_polish_army add_idea = POL_idea_polish_army_people }
+		}
+	}
+	
+	focus = {
+		id = POL_focus_restrict_army_access
+		icon = GFX_goal_generic_forceful_treaty
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_army_training }
+		mutually_exclusive = { focus = POL_focus_peoples_army }
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			swap_ideas = { remove_idea = POL_idea_polish_army add_idea = POL_idea_polish_army_elite }
+		}
+	}
+	
+	focus = {
+		id = POL_focus_peoples_airforce
+		icon = GFX_goal_generic_air_production
+		x = 16
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			air_experience = 25
+		}
+	}
+	
+	focus = {
+		id = POL_focus_air_bombing
+		icon = GFX_goal_generic_air_bomber
+		x = 17
+		y = 1
+		cost = 10
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_peoples_airforce }
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.75 uses = 1 category = heavy_air }
+		}
+	}
+	
+	focus = {
+		id = POL_focus_air_fighting
+		icon = GFX_goal_generic_air_fighter2
+		x = 15
+		y = 1
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = POL_focus_peoples_airforce }
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.75 uses = 1 category = light_air }
 		}
 	}
 

@@ -2533,3 +2533,7 @@
  POL_idea_polish_com_influence_desc:0 "This country is affected by political subversion: A neighboring country is trying to drift them towards §YCommunism§!."
  POL_idea_polish_army:0 "The Polish Army"
  POL_idea_polish_army_desc:0 "The Polish Army has undergone some reforms to make it more efficient."
+ POL_idea_polish_army_people:0 "The Polish Peoples Army"
+ POL_idea_polish_army_people_desc:0 "The Polish Army has undergone some reforms to make it more efficient. It is open to all of its citizens."
+ POL_idea_polish_army_elite:0 "The Polish National Army"
+ POL_idea_polish_army_elite_desc:0 "The Polish Army has undergone some reforms to make it more efficient. Higher Ranks in the military are restricted based on status in the political sphere."
