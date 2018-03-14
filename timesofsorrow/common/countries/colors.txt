@@ -548,3 +548,7 @@ LIN = {
 	color = rgb { 83  160  88 }
 	color_ui = rgb { 83  160  88 }
 }
+TRO = {
+	color = rgb { 183  73  84 }
+	color = rgb { 183  73  84 }
+}
