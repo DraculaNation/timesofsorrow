@@ -1,0 +1,3 @@
+-Manpower (some research required, maybe steal the stats from KR)
+-Setting owners and buildings (USA at first, fragmented states later)
+-Setting supply areas (using nudger)
