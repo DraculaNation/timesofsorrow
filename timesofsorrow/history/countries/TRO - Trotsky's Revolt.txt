@@ -1,4 +1,4 @@
-capital = 219
+﻿capital = 219
 
 # Same starting tech as Soviet Union
 set_technology = {

@@ -1,0 +1,27 @@
+﻿l_english:
+
+ ### Names
+  TRO_fascism:0 "Rodzaevsky"
+  TRO_fascism_DEF:0 "Rodzaevsky's Revolt"
+  TRO_democratic:0 "White Revolt"
+  TRO_democratic_DEF:0 "The White"
+  TRO_communism:0 "Trotsky's Revolt"
+  TRO_communism_DEF:0 "Trotsky's Revolt"
+  TRO_neutrality:0 "Republicam Revolt"
+  TRO_neutrality_DEF:0 "The Republican Revolt"
+  TRO_fascism_ADJ:0 "Rodzaevskyite"
+  TRO_democratic_ADJ:0 "White"
+  TRO_communism_ADJ:0 "Trotskyite"
+  TRO_neutrality_ADJ:0 "Kerenskyite"
+
+ ### Ideas
+ 
+  ### Placeholder
+
+ ### Focuses
+
+  ### Placeholder
+  
+ ### Events
+ 
+  ### Placeholder

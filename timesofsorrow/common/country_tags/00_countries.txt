@@ -114,6 +114,6 @@ MAN = "countries/Manchukou.txt"
 
 TEX = "countries/Texan Union.txt"
 NEW = "countries/New England.txt"
-CON = "countries/Confederacy.txt"
+CNF = "countries/Confederacy.txt"
 LIN = "countries/Lincoln Confederacy.txt"
 TRO = "countries/Trotsky's Revolt.txt"

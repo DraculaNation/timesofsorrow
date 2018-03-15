@@ -23,7 +23,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democracy = { 
+		democratic = { 
 			popularity = 75
 		}
 		neutrality = { 
@@ -34,7 +34,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democracy
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
