@@ -540,7 +540,7 @@ NEW = {
 	color = rgb { 113 206 226 }
 	color_ui = rgb { 113 206 226 }
 }
-CON = {
+CNF = {
 	color = rgb { 209  144  60 }
 	color_ui = rgb { 209  144  60 }
 }
