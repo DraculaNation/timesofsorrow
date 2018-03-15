@@ -1,6 +1,6 @@
-﻿capital = 286 #Phnom Penh NOT on the map as VP!
+﻿capital = 671 #Hanoi
 
-oob = "CAM_1936"
+oob = "VIN_1936"
 
 set_research_slots = 3
 
@@ -44,60 +44,61 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 70
+			popularity = 25
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 15
 		}
 		
 		communism = {
-			popularity = 10
+			popularity = 55
 		}
 		neutrality = {
-			popularity = 20
+			popularity = 5
 		}
 	}
 
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Pol Pot" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
-	expire = "1953.3.1"
-	ideology = anarchist_communism #insanity
-	traits = {
-		
-	}
-}
+#NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
-#non standard english alphabet character
 create_country_leader = {
-	name = "Sisowath Youtévong"
+	name = "Phan Bôi Châu" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
 	expire = "1953.3.1"
-	ideology = centrism
+	ideology = fascism_ideology 
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Norodom Sihanouk" 
+	name = "Ho Chí Minh" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = marxism
 	traits = {
 		
 	}
 }
 
-#couldnt find anything historical on fascism
+create_country_leader = {
+	name = "Nguyen Tuong Tam"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = moderatism
+	traits = {
+		
+	}
+}
+
+
 
