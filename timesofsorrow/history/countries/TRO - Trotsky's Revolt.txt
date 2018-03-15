@@ -1,5 +1,4 @@
-# TODO Add leader
-# TODO Add capital
+capital = 219
 
 # Same starting tech as Soviet Union
 set_technology = {
@@ -37,16 +36,16 @@ set_convoys = 100
 set_politics = {
 
 	parties = {
-		democratic = {
-			popularity = 0
+		neutrality = {
+			popularity = 5
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 5
 		}
 
 		communism = {
-			popularity = 100
+			popularity = 90
 		}
 	}
 
@@ -54,4 +53,37 @@ set_politics = {
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Leon Trotsky"
+	desc = "POLITICS_LEON_TROTSKY_DESC"
+	picture = "Portrait_Revolt_Leon_Trotsky.dds"
+	expire = "1953.3.1"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Konstantin Rodzaevsky"
+	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Fyodorovich Kerensky"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Soviet_Generic_1.dds"
+	expire = "1953.3.1"
+	ideology = centrism
+	traits = {
+		
+	}
 }
