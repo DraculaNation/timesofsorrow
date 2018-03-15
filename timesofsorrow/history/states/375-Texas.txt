@@ -3,15 +3,15 @@ state={
 	id=375
 	name="STATE_375"
 	resources={
-		oil=320.000
-		aluminium=50.000
+		oil=280
+		aluminium=96
 	}
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 9
+			industrial_complex = 5
 			air_base = 3
 			10337 = {
 				naval_base = 3
@@ -29,9 +29,6 @@ state={
 		}
 		victory_points = {
 			3960 10 
-		}
-		victory_points = {
-			12782 1 
 		}
 
 	}
