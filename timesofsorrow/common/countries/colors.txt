@@ -370,7 +370,7 @@ ICE = {
 
 UKR = {
 	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color_ui = rgb { 0  80  230 }
 }
 
 AZR = {
@@ -465,7 +465,7 @@ DDR = {
 }
 KOR = {
 	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }	
+	color_ui = rgb { 255 248 229 }
 }
 ISR = {
 	color = rgb { 152  130  191 }
@@ -490,6 +490,10 @@ LIN = {
 TRO = {
 	color = rgb { 229  63  74 }
 	color_ui = rgb { 149  33  44 }
+}
+PAC = {
+	color = rgb { 53 173 46 }
+	color_ui = rgb { 47 142 42 }
 }
 D01 = {
 	color = rgb { 200 100 31 }
