@@ -8,7 +8,7 @@ state={
 		oil= 300
 	}
 	history= {
-		owner = USA
+		owner = TEX
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -18,7 +18,8 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = TEX
+		add_claim_by = USA
 		victory_points = {
 			12782 1 
 		}
