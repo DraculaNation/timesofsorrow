@@ -13,6 +13,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = LIN
 		victory_points = {
 			4860 1 
 		}
