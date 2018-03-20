@@ -1,4 +1,4 @@
-﻿# TODO Add capital
+﻿capital = 775
 # TODO Add leader
 
 oob = "PAC_1936"
