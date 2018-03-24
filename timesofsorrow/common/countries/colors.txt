@@ -495,6 +495,10 @@ PAC = {
 	color = rgb { 53 173 46 }
 	color_ui = rgb { 47 142 42 }
 }
+TRU = {
+	color = rgb { 140 153 58 }
+	color_ui = rgb { 120 133 48 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

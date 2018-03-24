@@ -1,0 +1,30 @@
+﻿l_english:
+
+ ### Names
+  TRU_fascism:0 "Arabian Sheikhdom"
+  TRU_fascism_DEF:0 "The Arabian Sheikhdom"
+  TRU_democratic:0 "United Arab Emirates"
+  TRU_democratic_DEF:0 "The United Arab Emirates"
+  TRU_communism:0 "Arab Socialist Republic"
+  TRU_communism_DEF:0 "The Arab Socialist Republic"
+  TRU_neutrality:0 "Trucial States"
+  TRU_neutrality_DEF:0 "The Trucial States"
+  TRU_fascism_ADJ:0 "Arab"
+  TRU_democratic_ADJ:0 "Arab"
+  TRU_communism_ADJ:0 "Arab"
+  TRU_neutrality_ADJ:0 "Trucial"
+ ### Parties
+  TRU_neutrality_party:0 "Council of Sheikhs" 
+  TRU_neutrality_party_long:0 "Council of Sheikhs" 
+  
+ ### Ideas
+
+  ### Placeholder
+
+ ### Focuses
+
+  ### Placeholder
+
+ ### Events
+
+  ### Placeholder
