@@ -1,0 +1,31 @@
+﻿l_english:
+
+ ### African Minors? Kony approves!
+  KEN_fascism:2 "Kenyan Empire"
+  KEN_fascism_DEF:2 "Kenyan Empire"
+  KEN_democratic:0 "Kenya"
+  KEN_democratic_DEF:0 "Kenya"
+  KEN_neutrality:0 "Kenya"
+  KEN_neutrality_DEF:0 "Kenya"
+  KEN_communism:1 "People's Republic of Kenya"
+  KEN_communism_DEF:0 "the People's Republic of Kenya"
+  KEN_fascism_ADJ:0 "Kenyan"
+  KEN_democratic_ADJ:0 "Kenyan"
+  KEN_neutrality_ADJ:0 "Kenyan"
+  KEN_communism_ADJ:0 "Kenyan"
+ ### Parties
+  
+   ### Placeholder
+
+ ### Ideas
+ 
+  ### Placeholder
+
+ ### Focuses
+
+  ### Placeholder
+  
+ ### Events
+  kenya.1.t:0 "Kenya Declares Independence!"
+  kenya.1.d:0 "Following the example of our other, former African colonies, the Kenyan local government has declared independence. However, because of the nature of our government, and the current circumstances in the world, we cannot refuse."
+  kenya.1.a:0 "Kenya believe it?"

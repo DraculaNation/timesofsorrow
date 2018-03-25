@@ -1,0 +1,37 @@
+﻿add_namespace = tos_kenya
+
+#Independence
+country_event = {
+	id = kenya.1
+	title = kenya.1.t
+	desc = kenya.1.d
+	picture = GFX_report_event_african_soldiers
+	mean_time_to_happen = { days = 15 }
+	fire_only_once = yes
+		
+	trigger = {
+		AND = { 
+			OR = {
+				TAG = ENG
+				TAG = FRA
+				TAG = ITA
+			}
+		}
+		date > 1936.3.8
+		owns_state = 547	
+	}
+		
+	option = {
+		name = kenya.1.a
+		ai_chance = { factor = 100 }
+		if = { 
+			limit = { owns_state = 547 }
+			KEN = { transfer_state = 547 }
+		}
+		if = { 
+			limit = { owns_state = 546 }
+			KEN = { transfer_state = 546 }
+		}
+		add_political_power = -40
+	}
+}
