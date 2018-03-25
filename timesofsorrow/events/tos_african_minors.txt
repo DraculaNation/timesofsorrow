@@ -35,3 +35,30 @@ country_event = {
 		add_political_power = -40
 	}
 }
+country_event = {
+	id = ghana.1
+	title = ghana.1.t
+	desc = ghana.1.d
+	picture = GFX_report_event_african_soldiers
+	mean_time_to_happen = { days = 40 }
+	fire_only_once = yes
+		
+	trigger = {
+		AND = { 
+			OR = {
+				TAG = ENG
+				TAG = FRA
+				TAG = ITA
+			}
+		}
+		date > 1936.6.10
+		owns_state = 274	
+	}
+		
+	option = {
+		name = ghana.1.a
+		ai_chance = { factor = 100 }
+		GHA = { transfer_state = 274 }
+		add_political_power = -40
+	}
+}

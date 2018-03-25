@@ -499,6 +499,14 @@ TRU = {
 	color = rgb { 140 153 58 }
 	color_ui = rgb { 120 133 48 }
 }
+SUD = {
+	color = rgb { 63 56 36 }
+	color_ui = rgb { 73 66 46 }
+}
+GHA = {
+	color = rgb { 42 99 38 }
+	color_ui = rgb { 52 109 48 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
