@@ -1,6 +1,6 @@
-﻿capital = 547
+﻿capital = 558
 
-oob = "KEN_1936"
+oob = "NIG_1936"
 
 # Starting tech
 set_technology = {
@@ -14,11 +14,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		communism = {
@@ -39,13 +39,11 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Dedan Ngwale"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	name = "Obafemi Awolowo"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
 		#
 	}
 }
-
-

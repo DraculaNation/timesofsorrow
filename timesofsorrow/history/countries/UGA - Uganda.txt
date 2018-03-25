@@ -1,6 +1,6 @@
-﻿capital = 547
+﻿capital = 548
 
-oob = "KEN_1936"
+oob = "UGA_1936"
 
 # Starting tech
 set_technology = {
@@ -14,7 +14,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 80
 		}
 
 		fascism = {
@@ -22,16 +22,16 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 20
 			#banned = no #default is no
 		}
 		
 		neutrality = { 
-			popularity = 80
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -39,10 +39,10 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Dedan Ngwale"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	name = "Daudi Cwa II"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = socialism
 	traits = {
 		#
 	}

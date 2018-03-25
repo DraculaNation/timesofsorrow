@@ -515,6 +515,18 @@ ZAM = {
 	color = rgb { 61 55 42 }
 	color_ui = rgb { 81 75 62 }
 }
+UGA = {
+	color = rgb { 91 142 32 }
+	color_ui = rgb { 81 132 22 }
+}
+SOM = {
+	color = rgb { 39 175 198 }
+	color_ui = rgb { 29 155 178 }
+}
+NIG = {
+	color = rgb { 28 158 71 }
+	color_ui = rgb { 38 168 81 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
