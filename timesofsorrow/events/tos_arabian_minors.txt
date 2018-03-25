@@ -1,0 +1,79 @@
+﻿add_namespace = tos_arabian_minors
+
+#Independence
+country_event = {
+	id = palestine.1
+	title = palestine.1.t
+	desc = palestine.1.d
+	picture = GFX_report_event_african_soldiers
+	mean_time_to_happen = { days = 60 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = PAL
+		date > 1937.1.1
+		has_government = neutrality
+	}
+		
+	option = { #Palestine
+		name = palestine.1.a
+		ai_chance = { factor = 60 }
+		add_political_power = 50
+		if = {
+			limit = { TAG = ISR }
+			PAL = { change_tag_from = ISR }
+			PAL = { transfer_state = 454 }
+			hidden_effect = {
+				PAL = { set_politics = { ruling_party = democratic elections_allowed = no } }
+			}
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = { ideology = democratic popularity = 0.5 }
+	}
+	
+	option = { #Israel
+		name = palestine.1.b
+		ai_chance = { factor = 30 }
+		add_political_power = -25
+		if = {
+			limit = { TAG = PAL }
+			ISR = { change_tag_from = PAL }
+			ISR = { transfer_state = 454 }
+			hidden_effect = {
+				ISR = { set_politics = { ruling_party = democratic elections_allowed = no } }
+			}
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = { ideology = democratic popularity = 0.5 }
+	}
+	
+	option = { #Federation
+		name = palestine.1.c
+		ai_chance = { factor = 10 }
+		if = {
+			limit = { TAG = PAL }
+			ISR = { change_tag_from = PAL }
+			ISR = { transfer_state = 454 }
+			hidden_effect = {
+				ISR = { set_politics = { ruling_party = neutrality elections_allowed = no } }
+			}
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		add_popularity = { ideology = neutrality popularity = 0.2 }
+	}
+	
+	option = { #Keep the mandate
+		name = palestine.1.e
+		ai_chance = { factor = 0 }
+		add_political_power = -100
+		if = {
+			limit = { TAG = PAL }
+			ISR = { change_tag_from = PAL }
+			ISR = { transfer_state = 454 }
+			hidden_effect = {
+				ISR = { set_politics = { ruling_party = neutrality elections_allowed = no } }
+			}
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+	}
+}

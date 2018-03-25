@@ -1,4 +1,4 @@
-﻿add_namespace = tos_kenya
+﻿add_namespace = tos_african_minors
 
 #Independence
 country_event = {
