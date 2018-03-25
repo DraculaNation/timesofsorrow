@@ -1,6 +1,6 @@
-﻿add_namespace = tos_african_minors
+﻿add_namespace = kenya
+add_namespace = ghana
 
-#Independence
 country_event = {
 	id = kenya.1
 	title = kenya.1.t

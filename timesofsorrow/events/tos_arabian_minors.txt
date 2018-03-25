@@ -1,6 +1,4 @@
-﻿add_namespace = tos_arabian_minors
-
-#Independence
+﻿add_namespace = palestine
 country_event = {
 	id = palestine.1
 	title = palestine.1.t
