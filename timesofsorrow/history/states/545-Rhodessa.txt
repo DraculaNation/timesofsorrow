@@ -8,7 +8,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = RHO
+		add_core_of = RHO
 		buildings = {
 			infrastructure = 3
 

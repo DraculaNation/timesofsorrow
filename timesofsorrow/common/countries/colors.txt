@@ -507,6 +507,14 @@ GHA = {
 	color = rgb { 42 99 38 }
 	color_ui = rgb { 52 109 48 }
 }
+RHO = {
+	color = rgb { 100 252 83 }
+	color_ui = rgb { 80 202 73 }
+}
+ZAM = {
+	color = rgb { 61 55 42 }
+	color_ui = rgb { 81 75 62 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

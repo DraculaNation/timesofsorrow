@@ -1,8 +1,16 @@
 ﻿l_english:
 democratic:0 "Authoritarian"
+democratic_noun:0 "Authoritarianism"
 communism:0 "Socialist"
+communism_noun:0 "Socialism"
 neutrality:0 "Disjointed"
+neutrality_noun:0 "Inefficient"
 fascism:0 "Nationalist"
+fascism_noun:0 "Nationalism"
+fascism_desc:0 "Fascist Regime"
+communism_desc:0 "Socialist Regime"
+democratic_desc:0 "Authoritarian Regime"
+neutrality_desc:0 "Disjointed Regime"
 
 conservatism:0 "Republicanist"
 conservatism_desc:0 "Although having democratic principles, republicansists, also known as dictatorial republics, carefully balance power between various factions in the state, usually with the people having little to no influence. This enables the government to perform actions that would otherwise be met with significant political resistance, such as declaring war on other countries. The term 'republicanist' can also be extended to encompass various, corruption-filled, flawed democracies in the world, where the ruling party always wins."
