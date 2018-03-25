@@ -1,6 +1,6 @@
-﻿capital = 542
+﻿capital = 700
 
-oob = "BOT_1936"
+oob = "SIE_1936"
 
 # Starting tech
 set_technology = {
@@ -14,7 +14,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 90
+			popularity = 20
 		}
 
 		fascism = {
@@ -27,11 +27,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 10
+			popularity = 80
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -39,10 +39,10 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Tshekedi Khama"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	name = "Douglas James Jardine"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = despotism
 	traits = {
 		#
 	}

@@ -7,4 +7,12 @@ state={
 	manpower=112100
 	buildings_max_level_factor=1.000
 	state_category=rural
+	history={
+		owner = NYA
+		add_core_of = NYA
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
 }
