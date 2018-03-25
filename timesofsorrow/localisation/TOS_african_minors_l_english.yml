@@ -133,6 +133,18 @@
   SIE_democratic_ADJ:0 "Sierra Leonean"
   SIE_neutrality_ADJ:0 "Sierra Leonean"
   SIE_communism_ADJ:0 "Sierra Leonean"
+  GAM_fascism:0 "Gambia"
+  GAM_fascism_DEF:0 "Gambia"
+  GAM_democratic:0 "Gambia"
+  GAM_democratic_DEF:0 "Gambia"
+  GAM_neutrality:0 "Gambia"
+  GAM_neutrality_DEF:0 "Gambia"
+  GAM_communism:1 "Gambia"
+  GAM_communism_DEF:0 "Gambia"
+  GAM_fascism_ADJ:0 "Gambian"
+  GAM_democratic_ADJ:0 "Gambian"
+  GAM_neutrality_ADJ:0 "Gambian"
+  GAM_communism_ADJ:0 "Gambian"
  ### Parties
   
    ### Placeholder
@@ -159,3 +171,6 @@
   sierra_leone.1.t:0 "Sierra Leone Declares Independende!"
   sierra_leone.1.d:0 "A couple of days after the new governor of Sierra Leone, Douglas James Jardine, assumed his position, he followed up with a declaration of independence from our rule. Apparently having the local population back him up, we cannot afford to refuse this declaration. We have to comply."
   sierra_leone.1.a:0 "That damn traitor!"
+  gambia.1.t:0 "Gambia Declares Independence!"
+  gambia.1.d:0 "Following the example of our other, former African colonies, the Gambian local government has declared independence. Because of the nature of our government, and the current circumstances in the world, we cannot refuse."
+  gambia.1.a:0 "Our Empire has crumbled so much..."

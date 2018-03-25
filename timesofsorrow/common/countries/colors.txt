@@ -535,6 +535,10 @@ SIE = {
 	color = rgb { 155 114 3 }
 	color_ui = rgb { 165 124 13 }
 }
+GAM = {
+	color = rgb { 178 92 89 }
+	color_ui = rgb { 158 72 69 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

@@ -2,6 +2,7 @@
 add_namespace = ghana
 add_namespace = rhodesia
 add_namespace = sierra_leone
+add_namespace = gambia
 
 country_event = {
 	id = kenya.1
@@ -100,10 +101,8 @@ country_event = {
 	mean_time_to_happen = { days = 7 }
 	fire_only_once = yes
 		
-	trigger = {
-		AND = { 
-			TAG = ENG
-		}
+	trigger = { 
+		TAG = ENG
 		date > 1937.5.21
 		owns_state = 700	
 	}
@@ -112,6 +111,27 @@ country_event = {
 		name = sierra_leone.1.a
 		ai_chance = { factor = 100 }
 		SIE = { transfer_state = 700 }
+		add_political_power = -20
+	}
+}
+country_event = {
+	id = gambia.1
+	title = gambia.1.t
+	desc = gambia.1.d
+	picture = GFX_report_event_african_soldiers
+	mean_time_to_happen = { days = 150 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = ENG
+		date > 1938.1.1
+		owns_state = 701	
+	}
+		
+	option = {
+		name = gambia.1.a
+		ai_chance = { factor = 100 }
+		GAM = { transfer_state = 701 }
 		add_political_power = -20
 	}
 }
