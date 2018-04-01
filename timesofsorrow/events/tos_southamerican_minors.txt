@@ -1,0 +1,115 @@
+﻿add_namespace = southamerica
+country_event = {
+	id = southamerica.1 #tourism report generator
+	title = southamerica.1.t
+	desc = southamerica.1.d
+	mean_time_to_happen = { days = 4 }
+	hidden = yes
+	trigger = {
+		OR = {
+			tag = BRA
+			tag = ARG
+			tag = BOL
+			tag = CHL
+			tag = COL
+			tag = ECU
+			tag = PAR
+			tag = PRU
+			tag = URG
+			tag = VEN
+		}
+		OR = { 
+			AND = {
+				date > 1936.12.24
+				date < 1937.1.1
+			}
+			AND = {
+				date > 1937.12.24
+				date < 1938.1.1
+			}
+			AND = {
+				date > 1938.12.24
+				date < 1939.1.1
+			}
+			AND = {
+				date > 1939.12.24
+				date < 1940.1.1
+			}
+			AND = {
+				date > 1940.12.24
+				date < 1941.1.1
+			}
+			AND = {
+				date > 1941.12.24
+				date < 1942.1.1
+			}
+			AND = {
+				date > 1942.12.24
+				date < 1943.1.1
+			}
+			AND = {
+				date > 1943.12.24
+				date < 1944.1.1
+			}
+			AND = {
+				date > 1944.12.24
+				date < 1945.1.1
+			}
+			AND = {
+				date > 1945.12.24
+				date < 1946.1.1
+			}
+			AND = {
+				date > 1946.12.24
+				date < 1947.1.1
+			}
+		}
+	}
+	
+	immediate_effect = {
+		random_list = {
+			30 = { country_event = { id = southamerica.2 days = 1 } } # Good tourism
+			40 = { country_event = { id = southamerica.3 days = 1 } } # Medium Tourism
+			30 = { country_event = { id = southamerica.4 days = 1 } } # Bad Tourism
+		}
+	}
+}
+country_event = {
+	id = southamerica.2
+	title = southamerica.2.t
+	desc = southamerica.2.d
+	is_triggered_only = yes
+
+	option = {
+		name = southamerica.2.a # Great!
+		picture = GFX_report_event_generic_read_write
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+	}
+}
+country_event = {
+	id = southamerica.3
+	title = southamerica.3.t
+	desc = southamerica.3.d
+	is_triggered_only = yes
+
+	option = {
+		name = southamerica.3.a # Could have been worse
+		picture = GFX_report_event_generic_read_write
+		ai_chance = { factor = 100 }
+		add_political_power = 25
+	}
+}
+country_event = {
+	id = southamerica.4
+	title = southamerica.4.t
+	desc = southamerica.4.d
+	is_triggered_only = yes
+
+	option = {
+		name = southamerica.4.a # Bummer.
+		picture = GFX_report_event_generic_read_write
+		ai_chance = { factor = 100 }
+		add_political_power = -5
+	}
+}
