@@ -3,6 +3,7 @@ add_namespace = ghana
 add_namespace = rhodesia
 add_namespace = sierra_leone
 add_namespace = gambia
+add_namespace = west_africa
 
 country_event = {
 	id = kenya.1
@@ -132,6 +133,63 @@ country_event = {
 		name = gambia.1.a
 		ai_chance = { factor = 100 }
 		GAM = { transfer_state = 701 }
+		add_political_power = -20
+	}
+}
+country_event = { #Seizing Portuguese Guinea
+	id = west_africa.1
+	title = west_africa.1.t
+	desc = west_africa.1.d
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = WAF
+		POR = {
+			owns_state = 296
+			has_war = yes
+			divisions_in_state = { state = 296 size = 0 }
+		}
+		owns_state = 556	
+	}
+		
+	option = { #Seize it
+		name = west_africa.1.a
+		ai_chance = { factor = 50 }
+		transfer_state = 296
+		add_political_power = -25
+		POR = { country_event = { days = 1 id = west_africa.2 } }
+	}
+	option = { #Leave it be
+		name = west_africa.1.b
+		ai_chance = { factor = 50 }
+		add_political_power = 5
+	}
+}
+country_event = { #Portugal's Reaction
+	id = west_africa.2
+	title = west_africa.2.t
+	desc = west_africa.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+		
+	option = { #War
+		name = west_africa.1.a
+		ai_chance = { factor = 15 }
+		trigger = { NOT = { has_government = neutrality } }
+		add_political_power = -60
+		declare_war_on = { target = WAF type = take_state_focus generator = { 296 } }
+	}
+	option = { #Conquer later
+		name = west_africa.1.b
+		ai_chance = { factor = 15 }
+		trigger = { has_government = fascism }
+		add_political_power = -90
+		create_wargoal = { target = WAF type = take_state_focus generator = { 296 } }
+	}
+	option = { #Leave it be
+		name = west_africa.1.c
+		ai_chance = { factor = 70 }
 		add_political_power = -20
 	}
 }

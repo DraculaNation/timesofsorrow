@@ -539,6 +539,10 @@ GAM = {
 	color = rgb { 178 92 89 }
 	color_ui = rgb { 158 72 69 }
 }
+WAF = {
+	color = rgb { 61 53 2 }
+	color_ui = rgb { 81 73 22 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
