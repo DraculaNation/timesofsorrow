@@ -148,7 +148,7 @@ country_event = { #Seizing Portuguese Guinea
 		POR = {
 			owns_state = 296
 			has_war = yes
-			divisions_in_state = { state = 296 size = 0 }
+			NOT = { divisions_in_state = { state = 296 size > 0 } }
 		}
 		owns_state = 556	
 	}

@@ -79,10 +79,10 @@ country_event = {
 	title = southamerica.2.t
 	desc = southamerica.2.d
 	is_triggered_only = yes
-
+	picture = GFX_report_event_generic_read_write
 	option = {
 		name = southamerica.2.a # Great!
-		picture = GFX_report_event_generic_read_write
+		
 		ai_chance = { factor = 100 }
 		add_political_power = 50
 	}
@@ -92,10 +92,9 @@ country_event = {
 	title = southamerica.3.t
 	desc = southamerica.3.d
 	is_triggered_only = yes
-
+	picture = GFX_report_event_generic_read_write
 	option = {
 		name = southamerica.3.a # Could have been worse
-		picture = GFX_report_event_generic_read_write
 		ai_chance = { factor = 100 }
 		add_political_power = 25
 	}
@@ -105,10 +104,9 @@ country_event = {
 	title = southamerica.4.t
 	desc = southamerica.4.d
 	is_triggered_only = yes
-
+	picture = GFX_report_event_generic_read_write
 	option = {
 		name = southamerica.4.a # Bummer.
-		picture = GFX_report_event_generic_read_write
 		ai_chance = { factor = 100 }
 		add_political_power = -5
 	}
