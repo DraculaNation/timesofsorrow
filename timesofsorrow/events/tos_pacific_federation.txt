@@ -1,0 +1,39 @@
+﻿add_namespace = pacifica
+
+#Status of Hawaii
+country_event = {
+		id = pacifica.1
+		title = pacifica.1.t
+		desc = pacifica.1.d
+		picture = GFX_report_event_merchant_ship_01
+		
+		fire_only_once = yes
+		
+		trigger = {
+			TAG = PAC
+			has_navy_experience > 50
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+				owns_state = 629
+			}
+		}
+		
+		option = { #Seize Hawaii
+			name = pacifica.1.a
+			ai_chance = { factor = 80 }
+			transfer_state = 629
+			navy_experience = -50
+		}
+		
+		option = { #Leave them be
+			name = pacifica.1.b
+			ai_chance = { factor = 20 }
+			add_political_power = 5
+		}
+		
+}

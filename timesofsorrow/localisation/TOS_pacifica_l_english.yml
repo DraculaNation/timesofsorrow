@@ -13,6 +13,8 @@
   PAC_democratic_ADJ:0 "Pacific"
   PAC_communism_ADJ:0 "Pacific"
   PAC_neutrality_ADJ:0 "Pacific"
+ ### Other
+  PAC_GATHERING_STORM_DESC:0 "As the Great Depression has left America in a state of ruin, the West Coast was one of the regions that suffered the most. In order not to suffer huge unrest and rebellions, the USA has granted independence to the states of Oregon and California, grouping them together to create the Pacific Federation, and put a staunch isolationism, Hiram Johnson, as the head of the provisional government. Will the Pacific Federation rise above all, or fall under the USA once again?"
  ### Ideas
  
   ### Placeholder
@@ -23,4 +25,7 @@
   
  ### Events
  
-  ### Placeholder
+  pacifica.1.t:0 "Status of Hawaii"
+  pacifica.1.d:0 "Hawaii can be considered somewhat important for the United States of Amrica, or what remains of them. Since their access to the Pacific Ocean has been cut off, we can quickly and skillfully prepare our navy and seize the control of Hawaii, incorporating them into our federation. However, we can also loave them be and not cause any more provocations. What should we do?"
+  pacifica.1.a:0 "Aloha, Hawaii!"
+  pacifica.1.b:0 "Too much effort..."
