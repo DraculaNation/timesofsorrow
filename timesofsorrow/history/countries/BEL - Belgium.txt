@@ -18,6 +18,20 @@ set_technology = {
 
 }
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = COG
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	else = {
+		puppet = COG
+	}
+}
+
 set_politics = {
 
 	parties = {

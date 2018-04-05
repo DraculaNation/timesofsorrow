@@ -20,6 +20,21 @@ set_technology = {
 }
 
 set_convoys = 50
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = ANG
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	else = {
+		puppet = ANG
+	}
+}
+
 set_politics = {
 
 	parties = {
@@ -40,7 +55,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
