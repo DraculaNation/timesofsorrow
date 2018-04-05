@@ -543,6 +543,30 @@ WAF = {
 	color = rgb { 61 53 2 }
 	color_ui = rgb { 81 73 22 }
 }
+CAF = {
+	color = rgb { 157 229 103 }
+	color_ui = rgb { 127 199 73 }
+}
+GAB = {
+	color = rgb { 9 68 163 }
+	color_ui = rgb { 29 88 183 }
+}
+MAG = {
+	color = rgb { 135 85 25 }
+	color_ui = rgb { 115 65 5 }
+}
+TUN = {
+	color = rgb { 175 47 24 }
+	color_ui = rgb { 155 27 4 }
+}
+ALG = {
+	color = rgb { 11 117 9 }
+	color_ui = rgb { 31 137 29 }
+}
+MOR = {
+	color = rgb { 158 28 80 }
+	color_ui = rgb { 138 8 60 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
