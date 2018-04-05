@@ -34,6 +34,19 @@ if = {
 		puppet = ANG
 	}
 }
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = MZB
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	else = {
+		puppet = MZB
+	}
+}
 
 set_politics = {
 

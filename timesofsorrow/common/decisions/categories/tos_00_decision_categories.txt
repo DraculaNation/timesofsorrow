@@ -1,0 +1,17 @@
+america_dominance = {
+	icon = generic_propaganda
+
+	allowed = {
+		OR = { 
+			original_tag = PAC
+			AND = {
+				original_tag = USA
+				has_country_flag = america_worst_is_over
+			}
+			original_tag = TEX
+			original_tag = LIN
+			original_tag = CNF
+			original_tag = NEW
+		}
+	}
+}
