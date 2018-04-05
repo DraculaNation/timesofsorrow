@@ -42,8 +42,30 @@ set_politics = {
 		}
 	}
 
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hiram Johnson"
+	desc = "POLITICS_HIRAM_JOHNSON_DESC"
+	picture = "Portrait_Pacifica_Hiram_Johnson.tga"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hiram Johnson"
+	desc = "POLITICS_HIRAM_JOHNSON_DESC"
+	picture = "Portrait_Pacifica_Hiram_Johnson.tga"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		#
+	}
 }

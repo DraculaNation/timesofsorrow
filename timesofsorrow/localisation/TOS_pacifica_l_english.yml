@@ -23,9 +23,12 @@
 
   ### Placeholder
   
+ ### Decisions
+  america_dominance:0 "American Dominance"
+  america_dominance_desc:0 "In order to sustain ourselves as a country, we need to dominate in territories formerly held by the United States of America."
+  dominance_seize_hawaii:0 "Seize Hawaii"
+  dominance_seize_hawaii_desc:0 "Hawaii can be considered somewhat important for the United States of Amrica, or what remains of them. Since their access to the Pacific Ocean has been cut off, we can quickly and skillfully prepare our navy and seize the control of Hawaii, incorporating them into our country."
+  dominance_incorporate_hawaii:0 "Incorporate Hawaii"
+  dominance_incorporate_hawaii_desc:0 "Since we have taken Hawaii, the local population is still in a state of shock and distrust, and most of all, our administration isn't effective. We  can redirect some of our political effort in order to establish a foothold in Hawaii, and truly accept it into our nation."
  ### Events
- 
-  pacifica.1.t:0 "Status of Hawaii"
-  pacifica.1.d:0 "Hawaii can be considered somewhat important for the United States of Amrica, or what remains of them. Since their access to the Pacific Ocean has been cut off, we can quickly and skillfully prepare our navy and seize the control of Hawaii, incorporating them into our federation. However, we can also loave them be and not cause any more provocations. What should we do?"
-  pacifica.1.a:0 "Aloha, Hawaii!"
-  pacifica.1.b:0 "Too much effort..."
+  ### Placeholder

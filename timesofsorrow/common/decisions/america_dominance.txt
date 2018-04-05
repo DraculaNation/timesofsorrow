@@ -1,0 +1,100 @@
+america_dominance = {
+
+	dominance_seize_hawaii = {
+
+		icon = infiltrate_state
+
+		allowed = {
+			OR = {
+				TAG = PAC
+				TAG = LIN
+				TAG = TEX
+			}
+		}
+
+		available = {
+			OR = {
+				owns_state = 378
+				owns_state = 385
+				owns_state = 386
+				owns_state = 775
+			}
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+			}
+			USA = { owns_state = 629 }
+			has_navy_experience > 40
+		}
+
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 50
+		}
+
+		visible = {
+			OR = {
+				owns_state = 378
+				owns_state = 385
+				owns_state = 386
+				owns_state = 775
+			}
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+			}
+			USA = { owns_state = 629 }
+			has_navy_experience > 40
+			OR = {
+				TAG = PAC
+				TAG = LIN
+				TAG = TEX
+			}
+		}
+
+		complete_effect = {
+			transfer_state = 629
+			navy_experience = -40
+		}
+	}
+	dominance_incorporate_hawaii = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			OR = {
+				TAG = PAC
+				TAG = LIN
+			}
+		}
+
+		available = {
+			owns_state = 629
+			NOT = { 629 = { is_core_of = ROOT } }
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 50
+		}
+
+		visible = {
+			owns_state = 629
+			NOT = { 629 = { is_core_of = ROOT } }
+			has_political_power > 25
+		}
+
+		complete_effect = {
+			add_state_core = 629
+		}
+	}
+}
