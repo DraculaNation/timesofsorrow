@@ -1,7 +1,4 @@
 ﻿capital = 375
-# TODO Add leader
-
-oob = "TEX_1936"
 
 set_research_slots = 3
 

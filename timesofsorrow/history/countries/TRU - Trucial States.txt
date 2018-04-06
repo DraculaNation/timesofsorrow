@@ -1,7 +1,5 @@
 ﻿capital = 658
 
-oob = "TRU_1936"
-
 # Starting tech, clone of Saudi Arabia's
 set_technology = {
 	infantry_weapons = 1

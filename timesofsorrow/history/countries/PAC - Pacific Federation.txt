@@ -1,8 +1,6 @@
 ﻿capital = 775
 # TODO Add leader
 
-oob = "PAC_1936"
-
 set_research_slots = 3
 
 set_technology = {

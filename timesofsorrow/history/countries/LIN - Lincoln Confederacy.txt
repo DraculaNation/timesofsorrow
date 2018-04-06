@@ -1,8 +1,6 @@
 ﻿# TODO Add capital
 # TODO Add leader
 
-oob = "LIN_1936"
-
 set_research_slots = 3
 
 set_technology = {
