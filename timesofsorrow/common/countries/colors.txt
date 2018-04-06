@@ -571,6 +571,14 @@ DES = {
 	color = rgb { 222 226 229 }
 	color_ui = rgb { 152 156 159 }
 }
+LKH = {
+	color = rgb { 206 61 24 }
+	color_ui = rgb { 186 41 4 }
+}
+SUP = {
+	color = rgb { 193 234 28 }
+	color_ui = rgb { 173 214 8 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
