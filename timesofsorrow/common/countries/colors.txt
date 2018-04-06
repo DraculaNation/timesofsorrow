@@ -567,6 +567,10 @@ MOR = {
 	color = rgb { 158 28 80 }
 	color_ui = rgb { 138 8 60 }
 }
+DES = {
+	color = rgb { 222 226 229 }
+	color_ui = rgb { 152 156 159 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

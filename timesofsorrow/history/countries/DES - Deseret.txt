@@ -1,0 +1,69 @@
+﻿capital = 380
+# TODO Add leader
+
+set_research_slots = 3
+
+set_technology = {
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+}
+
+set_convoys = 100
+
+set_politics = {
+
+	parties = {
+		democratic = {
+			popularity = 60
+		}
+
+		fascism = {
+			popularity = 10
+		}
+
+		communism = {
+			popularity = 5
+
+		}
+
+		neutrality = {
+			popularity = 25
+		}
+	}
+
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "John Y. Barlow"
+	desc = "POLITICS_JOHN_BARLOW_DESC"
+	picture = "Portrait_Deseret_John_Barlow.tga"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Elden Kingston"
+	desc = "POLITICS_ELDEN_KINGSTON_DESC"
+	picture = "Portrait_Deseret_Elden_Kingston.tga"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}

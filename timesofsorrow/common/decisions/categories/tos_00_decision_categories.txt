@@ -1,5 +1,5 @@
 america_dominance = {
-	icon = generic_propaganda
+	icon = generic_democracy
 
 	allowed = {
 		OR = { 
