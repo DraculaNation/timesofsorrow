@@ -9,6 +9,10 @@ america_dominance = {
 				TAG = PAC
 				TAG = LIN
 				TAG = TEX
+				TAG = DES
+				TAG = NEW
+				TAG = LKH
+				TAG = CON
 			}
 		}
 
@@ -57,14 +61,20 @@ america_dominance = {
 				TAG = PAC
 				TAG = LIN
 				TAG = TEX
+				TAG = DES
+				TAG = NEW
+				TAG = LKH
+				TAG = CON
 			}
 		}
 
 		complete_effect = {
 			transfer_state = 629
+			USA = { remove_state_core = 629}
 			navy_experience = -40
 		}
 	}
+	
 	dominance_incorporate_hawaii = {
 
 		icon = generic_civil_support
@@ -73,6 +83,8 @@ america_dominance = {
 			OR = {
 				TAG = PAC
 				TAG = LIN
+				TAG = LKH
+				TAG = USA
 			}
 		}
 
@@ -97,4 +109,118 @@ america_dominance = {
 			add_state_core = 629
 		}
 	}
+	
+	dominance_seize_alaska = {
+
+		icon = infiltrate_state
+
+		allowed = {
+			OR = {
+				TAG = PAC
+				TAG = LIN
+				TAG = TEX
+				TAG = DES
+				TAG = NEW
+				TAG = LKH
+				TAG = CON
+			}
+		}
+
+		available = {
+			OR = {
+				owns_state = 378
+				owns_state = 385
+				owns_state = 386
+				owns_state = 775
+			}
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+			}
+			USA = { owns_state = 463 }
+			has_navy_experience > 20
+		}
+
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 50
+		}
+
+		visible = {
+			OR = {
+				owns_state = 378
+				owns_state = 385
+				owns_state = 386
+				owns_state = 775
+			}
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+			}
+			USA = { owns_state = 463 }
+			has_navy_experience > 20
+			OR = {
+				TAG = PAC
+				TAG = LIN
+				TAG = TEX
+				TAG = DES
+				TAG = NEW
+				TAG = LKH
+				TAG = CON
+			}
+		}
+
+		complete_effect = {
+			transfer_state = 463
+			USA = { remove_state_core = 463 }
+			navy_experience = -20
+		}
+	}
+	dominance_incorporate_alaska = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			OR = {
+				TAG = PAC
+				TAG = LIN
+				TAG = TEX
+				TAG = DES
+				TAG = NEW
+				TAG = LKH
+				TAG = CON
+				TAG = USA
+			}
+		}
+
+		available = {
+			owns_state = 463
+			NOT = { 463 = { is_core_of = ROOT } }
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 50
+		}
+
+		visible = {
+			owns_state = 463
+			NOT = { 463 = { is_core_of = ROOT } }
+			has_political_power > 25
+		}
+
+		complete_effect = {
+			add_state_core = 463
+		}
+	}
+	
 }

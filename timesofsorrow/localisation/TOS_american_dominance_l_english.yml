@@ -1,0 +1,14 @@
+﻿l_english:
+  
+  america_dominance:0 "American Dominance"
+  america_dominance_desc:0 "In order to sustain ourselves as a country, we need to dominate in territories formerly held by the United States of America."
+  # Seize Hawaii
+   dominance_seize_hawaii:0 "Seize Hawaii"
+   dominance_seize_hawaii_desc:0 "Hawaii can be considered somewhat important for the United States of Amrica, or what remains of them. Since their access to the Pacific Ocean has been cut off, we can quickly and skillfully prepare our navy and seize the control of Hawaii, incorporating them into our country."
+   dominance_incorporate_hawaii:0 "Incorporate Hawaii"
+   dominance_incorporate_hawaii_desc:0 "Since we have taken Hawaii, the local population is still in a state of shock and distrust, and most of all, our administration isn't effective. We can redirect some of our political effort in order to establish a foothold in Hawaii, and truly accept it into our nation."
+   # Seize Alaska
+   dominance_seize_alaska:0 "Seize Alaska"
+   dominance_seize_alaska_desc:0 "Originally purchased from the Russians, Alaska has a lot of untapped potential for oil. If we can seize it, and promise our people better lives if they move up north and start drilling oil, then the economic collapse might calm down. However, we have no other way of reaching it without navy, and as the United States have been cut off from it, then we could ,aybe seize it before the Soviets do?"
+   dominance_incorporate_alaska:0 "Incorporate Alaska"
+   dominance_incorporate_alaska_desc:0 "Since we have taken Alaska, we need to incorporate them as an actual part of our country. We would need to redirect some of our political efforts in order to set up a valid administration there."
