@@ -1,0 +1,26 @@
+ideas = {
+
+country = {
+
+	CRO_idea_anti_german_sentiment = {
+		allowed = {
+			always = yes
+		}
+		
+		removal_cost = -1
+		
+		picture = generic_fascism_banned
+		
+		modifier = {
+			targeted_modifier = { tag = GER defense_bonus_against = 0.05 }
+			drift_defence_factor = 0.05
+		}
+		
+		allowed_civil_war = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+		
+	}
+}
