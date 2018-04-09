@@ -1,4 +1,5 @@
 ﻿add_namespace = southamerica
+add_namespace = surinam
 country_event = {
 	id = southamerica.1 #tourism report generator
 	title = southamerica.1.t
@@ -109,5 +110,92 @@ country_event = {
 		name = southamerica.4.a # Bummer.
 		ai_chance = { factor = 100 }
 		add_political_power = -5
+	}
+}
+country_event = { #Join the Guyanese Federation?
+	id = surinam.1
+	title = surinam.1.t
+	desc = surinam.1.d
+	trigger = {
+		TAG = SUR
+		is_puppet = no
+		has_war = no
+		country_exists = GUY
+	}
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	
+	option = {
+		name = surinam.1.a # Yes
+		ai_chance = { factor = 50 }
+		GUY = { 
+			change_tag_from = SUR
+			annex_country = { target = SUR }
+			country_event = { id = surinam.2 days = 1 }
+		}
+	}
+	
+	option = {
+		name = surinam.1.b # No
+		ai_chance = { factor = 50 }
+		add_political_power = 25
+	}
+}
+country_event = { #Guyana - Suriname joins the federation
+	id = surinam.2
+	title = surinam.2.t
+	desc = surinam.2.d
+	is_triggered_only = yes
+	option = {
+		name = surinam.2.a # Aww Yes
+		ai_chance = { factor = 100 }
+		add_political_power = 50
+	}
+}
+country_event = { #Proclaim Independence
+	id = surinam.3
+	title = surinam.3.t
+	desc = surinam.3.d
+	trigger = {
+		TAG = SUR
+		is_puppet_of = HOL
+		HOL = {
+			has_war = yes
+			NOT = { divisions_in_state = { state = 309 size > 0 } }
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	
+	option = {
+		name = surinam.3.a # Independence
+		ai_chance = { factor = 50 }
+		HOL = { 
+			end_puppet = SUR 
+			country_event = { id = surinam.4 days = 1 }
+		}
+	}
+	
+	option = {
+		name = surinam.3.b # Stay under control
+		ai_chance = { factor = 50 }
+		add_political_power = -5
+	}
+}
+country_event = { #Netherlands - Surinam declares independence
+	id = surinam.4
+	title = surinam.4.t
+	desc = surinam.4.d
+	is_triggered_only = yes
+	option = {
+		name = surinam.4.a # War
+		ai_chance = { factor = 90 }
+		trigger = { NOT = { has_government = neutrality } }
+		declare_war_on = { target = SUR type = annex_everything }
+	}
+	option = {
+		name = surinam.4.b # Peace
+		ai_chance = { factor = 10 }
+		add_political_power = -15
 	}
 }

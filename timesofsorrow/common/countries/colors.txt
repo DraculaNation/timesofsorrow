@@ -579,6 +579,14 @@ SUP = {
 	color = rgb { 193 234 28 }
 	color_ui = rgb { 173 214 8 }
 }
+GUY = {
+	color = rgb { 183 61 53 }
+	color_ui = rgb { 193 71 63 }
+}
+SUR = {
+	color = rgb { 175 100 42 }
+	color_ui = rgb { 195 120 62 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
