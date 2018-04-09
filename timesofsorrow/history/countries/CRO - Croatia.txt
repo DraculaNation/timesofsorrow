@@ -54,20 +54,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Josip Broz Tito"
-	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
-	picture = "Portrait_Croatia_Josip_Broz_Tito.dds"
+	name = "Pavle Gregorić"
+	desc = "POLITICS_PAVLE_GREGORIC_DESC"
+	picture = "Portrait_Croatia_Pavle_Gregoric"
 	expire = "1965.1.1"
-	ideology = anti_revisionism
+	ideology = leninism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Stjepan Radić"
-	desc = "POLITICS_STJEPAN_RADIC_DESC"
-	picture = "Portrait_Croatia_Stjepan_Radic.tga"
+	name = "Ivan Šubašić"
+	desc = "POLITICS_IVAN_SUBASIC_DESC"
+	picture = "Portrait_Croatia_Ivan_Subasic.tga"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {

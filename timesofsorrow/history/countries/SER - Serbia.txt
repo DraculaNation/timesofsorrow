@@ -72,9 +72,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Aleksandar Ranković"
+	name = "Moša Pijade"
 	desc = ""
-	picture = "Portrait_Serbia_Aleksandar_Rankovic.tga"
+	picture = "Portrait_Serbia_Mosa_Pijade.tga"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
