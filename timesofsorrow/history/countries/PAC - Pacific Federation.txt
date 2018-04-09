@@ -62,6 +62,17 @@ create_country_leader = {
 	desc = "POLITICS_HIRAM_JOHNSON_DESC"
 	picture = "Portrait_Pacifica_Hiram_Johnson.tga"
 	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Charles Martin"
+	desc = "POLITICS_CHARLES_MARTIN_DESC"
+	picture = "Portrait_Pacifica_Charles_Martin.tga"
+	expire = "1965.1.1"
 	ideology = rexism
 	traits = {
 		#
