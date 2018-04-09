@@ -587,6 +587,14 @@ SUR = {
 	color = rgb { 175 100 42 }
 	color_ui = rgb { 195 120 62 }
 }
+BAH = {
+	color = rgb { 117 168 121 }
+	color_ui = rgb { 137 188 141 }
+}
+CAR = {
+	color = rgb { 146 237 35 }
+	color_ui = rgb { 166 257 55 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

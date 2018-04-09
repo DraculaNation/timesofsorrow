@@ -1,0 +1,44 @@
+﻿capital = 689
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 20
+
+set_politics = {
+
+	parties = {
+		neutrality = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 80
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1936.1.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alexander Bustamante"
+	desc = "POLITICS_ALEXANDER_BUSTAMANTE_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
