@@ -1,0 +1,20 @@
+﻿l_english:
+  
+  expansion_and_coring_decisions:0 "Conquer and Core"
+  expansion_and_coring_decisions_desc:0 "There are various situations and opportunities where we could expand, or incorporate that which we already expanded to."
+  # Coring
+   expansion_core_falklands:0 "Incorporate the Falklands"
+   expansion_core_falklands_desc:0 "When the British Empire started crumbling, we have successfully achieved our dream by seizing the Falklands. All that is left to do now, is to incorporate them into our country."
+   expansion_core_south_georgia:0 "Incorporate South Georgia"
+   expansion_core_south_georgia_desc:0 "Along with the Falklands, we have also managed to seize South Georgia. We will have more difficulties incorporating them, due to their distance from us, but we can do it nevertheless."
+   expansion_core_belize:0 "Incorporate Belize"
+   expansion_core_belize_desc:0 "After the British Empire started crumbling, we have managed to seize Belize from their colonial government. All that's left is to incorporate them into our country."
+   expansion_core_eritrea:0 "Incorporate Eritrea"
+   expansion_core_eritrea_desc:0 "After seizing the former Italian colony of Eritrea, we never made an effective administration there due to local unrest. However, if we would guarantee them some, if not all rights, then the incorporation process may work."
+  # Seizing Alaska - Soviet Union or Vesperia
+   expansion_vesperia_seize_alaska:0 "Seize Alaska"
+   expansion_vesperia_seize_alaska_desc:0 "Each passing day, it seems that Alaska will stay under chaos due to the situation in the USA. We can rightfully seize and incorporate Alaska, if we have the military power to do so."
+   expansion_vesperia_core_alaska:0 "Incorporate Alaska"
+   expansion_vesperia_core_alaska_desc:0 "From now on, we can safely incorporate Alaska into our country, since the language barrier presents no problems, and we're in a better state than any of the USA splinter nations."
+   expansion_trotsky_seize_alaska:0 "Seize Alaska"
+   expansion_trotsky_seize_alaska_desc:0 "With its status as a former Russian colony, the state of Alaska is now in a disarray. If we hurry and seize it with our navy, maybe we could teach them a thing or two about socialism..."

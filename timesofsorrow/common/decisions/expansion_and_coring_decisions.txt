@@ -1,0 +1,249 @@
+expansion_and_coring_decisions = {
+
+	expansion_core_falklands = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			TAG = ARG
+		}
+
+		available = {
+			owns_state = 299
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			owns_state = 299
+			NOT = { 299 = { is_core_of = ROOT } }
+		}
+
+		complete_effect = {
+			add_state_core = 299
+		}
+	}
+	
+	expansion_core_south_georgia = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			TAG = ARG
+		}
+
+		available = {
+			owns_state = 720
+		}
+
+		cost = 30
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			owns_state = 720
+			NOT = { 720 = { is_core_of = ROOT } }
+		}
+
+		complete_effect = {
+			add_state_core = 720
+		}
+	}
+	
+	expansion_core_belize = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			TAG = GUA
+		}
+
+		available = {
+			owns_state = 311
+		}
+
+		cost = 40
+		
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			owns_state = 311
+			NOT = { 311 = { is_core_of = ROOT } }
+		}
+
+		complete_effect = {
+			add_state_core = 311
+		}
+	}
+	
+	expansion_core_eritrea = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			TAG = ETH
+		}
+
+		available = {
+			owns_state = 550
+		}
+
+		cost = 50
+		
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			owns_state = 550
+			NOT = { 550 = { is_core_of = ROOT } }
+		}
+
+		complete_effect = {
+			add_state_core = 550
+			set_political_party = { ideology = neutrality popularity = 0.15 }
+		}
+	}
+	
+	expansion_vesperia_seize_alaska = {
+
+		icon = infiltrate_state
+
+		allowed = {
+			TAG = CAN
+		}
+
+		available = {
+			date > 1938.1.1
+			TAG = CAN
+			owns_state = 473
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+				owns_state = 463
+			}
+			NOT = { owns_state = 463 }
+			divisions_in_state = { state = 473 size > 3 }
+			has_war = no
+		}
+
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+
+		cost = 60
+		
+		visible = {
+			date > 1948.1.1
+			TAG = CAN
+			owns_state = 473
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+				owns_state = 463
+			}
+		}
+
+		complete_effect = {
+			transfer_state = 463
+			USA = { remove_state_core = 463 }
+		}
+	}
+	
+	expansion_vesperia_core_alaska = {
+
+		icon = generic_civil_support
+
+		allowed = {
+			TAG = CAN
+		}
+
+		available = {
+			owns_state = 463
+			NOT = { 463 = { is_core_of = ROOT } }
+		}
+
+		cost = 60
+		
+		ai_will_do = {
+			factor = 50
+		}
+
+		visible = {
+			owns_state = 463
+			NOT = { 463 = { is_core_of = ROOT } }
+		}
+
+		complete_effect = {
+			add_state_core = 463
+		}
+	}
+	
+	expansion_trotsky_seize_alaska = {
+
+		icon = infiltrate_state
+
+		allowed = {
+			TAG = TRO
+		}
+
+		available = {
+			TAG = TRO
+			owns_state = 637
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+				owns_state = 463
+			}
+			NOT = { owns_state = 463 }
+			has_navy_experience > 40
+			has_war = no
+		}
+
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			TAG = TRO
+			owns_state = 637
+			USA = {
+				NOT = {
+					owns_state = 378
+					owns_state = 385
+					owns_state = 386
+					owns_state = 775
+				}
+				owns_state = 463
+			}
+		}
+
+		complete_effect = {
+			transfer_state = 463
+			USA = { remove_state_core = 463 }
+		}
+	}
+	
+}

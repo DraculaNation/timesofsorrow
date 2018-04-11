@@ -12,6 +12,13 @@ america_dominance = {
 			original_tag = LIN
 			original_tag = CNF
 			original_tag = NEW
+			original_tag = SUP
+			original_tag = DES
+			original_tag = LKH
 		}
 	}
+}
+
+expansion_and_coring_decisions = {
+	icon = generic_political_actions
 }

@@ -12,7 +12,7 @@ america_dominance = {
 				TAG = DES
 				TAG = NEW
 				TAG = LKH
-				TAG = CON
+				TAG = CNF
 			}
 		}
 
@@ -56,7 +56,6 @@ america_dominance = {
 				}
 			}
 			USA = { owns_state = 629 }
-			has_navy_experience > 40
 			OR = {
 				TAG = PAC
 				TAG = LIN
@@ -64,7 +63,7 @@ america_dominance = {
 				TAG = DES
 				TAG = NEW
 				TAG = LKH
-				TAG = CON
+				TAG = CNF
 			}
 		}
 
@@ -102,7 +101,6 @@ america_dominance = {
 		visible = {
 			owns_state = 629
 			NOT = { 629 = { is_core_of = ROOT } }
-			has_political_power > 25
 		}
 
 		complete_effect = {
@@ -122,7 +120,7 @@ america_dominance = {
 				TAG = DES
 				TAG = NEW
 				TAG = LKH
-				TAG = CON
+				TAG = CNF
 			}
 		}
 
@@ -166,7 +164,6 @@ america_dominance = {
 				}
 			}
 			USA = { owns_state = 463 }
-			has_navy_experience > 20
 			OR = {
 				TAG = PAC
 				TAG = LIN
@@ -174,7 +171,7 @@ america_dominance = {
 				TAG = DES
 				TAG = NEW
 				TAG = LKH
-				TAG = CON
+				TAG = CNF
 			}
 		}
 
@@ -196,7 +193,7 @@ america_dominance = {
 				TAG = DES
 				TAG = NEW
 				TAG = LKH
-				TAG = CON
+				TAG = CNF
 				TAG = USA
 			}
 		}
@@ -215,7 +212,6 @@ america_dominance = {
 		visible = {
 			owns_state = 463
 			NOT = { 463 = { is_core_of = ROOT } }
-			has_political_power > 25
 		}
 
 		complete_effect = {
