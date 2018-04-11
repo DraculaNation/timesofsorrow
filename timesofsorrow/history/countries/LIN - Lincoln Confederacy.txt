@@ -47,7 +47,6 @@ set_politics = {
 }
 
 create_country_leader = {
-	
 	name = "Barzilla W. Clark"
 	picture = "Portrait_Lincoln_Barzilla_Clark.tga"
 	expire = "1965.1.1"
@@ -55,4 +54,16 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = {
+	name = "Lloyd Fredendall"
+	picture = "gfx/leaders/USA/Portrait_USA_Lloyd_Fredendall.dds"
+	traits = { old_guard infantry_officer inflexible_strategist }
+	skill = 2
+
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }

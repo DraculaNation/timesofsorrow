@@ -45,3 +45,41 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_corps_commander = {
+	name = "Leslie McNair"
+	picture = "gfx/leaders/USA/Portrait_USA_Lesley_McNair.dds"
+	traits = {  old_guard career_officer armor_officer }
+	skill = 3
+
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mark Clark"
+	picture = "gfx/leaders/USA/Portrait_USA_Mark_W_Clark.dds"
+	traits = { infantry_officer trait_reckless }
+	skill = 4
+
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Ernest King"
+		picture = "gfx/leaders/USA/Portrait_USA_Earnest_King.dds"
+	traits = { blockade_runner superior_tactician }
+	skill = 5
+}
+
+create_navy_leader = {
+	name = "Frank Jack Fletcher"
+		picture = "gfx/leaders/USA/Portrait_USA_Frank_Jack_Fletcher.dds"
+	traits = { superior_tactician spotter }
+	skill = 3
+}

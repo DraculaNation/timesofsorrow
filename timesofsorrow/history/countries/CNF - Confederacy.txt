@@ -45,3 +45,56 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_corps_commander = {
+	name = "Courtney Hodges"
+	picture = "gfx/leaders/USA/Portrait_USA_Cortney_Hodges.dds"
+	traits = {  panzer_leader career_officer infantry_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "J. Lawton Collins"
+	picture = "gfx/leaders/USA/Portrait_USA_Lawton_Collins.dds"
+	traits = {  trickster career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Joseph Stilwell"
+	picture = "gfx/leaders/USA/Portrait_USA_Joseph_Stilwell.dds"
+	traits = { politically_connected infantry_officer career_officer harsh_leader }
+	skill = 1 
+	id = 601
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Walter Krueger"
+	picture = "gfx/leaders/USA/Portrait_USA_Walter_Krueger.dds"
+	traits = { armor_officer career_officer brilliant_strategist }
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Charles M. Cooke, Jr."
+		picture = "gfx/leaders/USA/Portrait_USA_Charles_M_Cooke.dds"
+	traits = {  }
+	skill = 2
+}
