@@ -595,6 +595,10 @@ CAR = {
 	color = rgb { 146 237 35 }
 	color_ui = rgb { 166 257 55 }
 }
+SLO = {
+	color = rgb { 8 54 219 }
+	color_ui = rgb { 28 74 239 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
