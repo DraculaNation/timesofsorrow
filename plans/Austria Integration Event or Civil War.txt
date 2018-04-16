@@ -1,0 +1,24 @@
+Coring Events:
+1. Autonomy Levels. A no-brainer. 
+	Choice 1: No Autonomy - reasoning being that they're Germans
+	Choice 2: Autonomy only for Slovenia - Slovenia becomes a puppet. Afterwards, Austrians get enraged and start the Rebellion, while Slovenia stays as a puppet. 
+	Choice 3: Autonomy for Austria - Austria becomes an integrated puppet under an Austrian nazi. However, a Coup happens and Ludwig Hermentin starts the rebellion (without Slovenia)
+2. Status of Austrians
+	Choice 1: Initially give them benefits which increases consumer goods factories and takes a bit of PP. Opposition forms because of, as they say, an attempt at brainwashing
+	Choice 2: Treat them as Germans, takes away a bit of PP since documentation and such
+	Choice 3: They can't be compared to Germans in Germany, triggers a rebellion afterwards.
+3. Status of Non-German Minorities
+	Choice 1: They're Germanized enough
+	Choice 2: Treat them like any other (hint: germany doesn't treat its minorities well). Eventually leads to a rebellion
+	Choice 3: Immediately exile them. Leads to a rebellion, but a weaker Slovenia and Austria with less manpower
+4. Status of the Opposition
+	Choice 1: Restrict them, but allow them to operate. Afterwards, they get successful and form a resistance group.
+	Choice 2: Ban Austrian opposition parties. They assemble "illegaly" and start the rebellion. Costs PP
+	Choice 3: Organize a huge crackdown. Costs quite a lot of PP.
+
+Civil War:
+-Slovenia and Austria have the "Rebellion" modifiers
+-Istria can defect to Slovenia if Italy and Germany are allies
+-Italy can seize Istria if not in the same Alliance
+-If South Germany ( IDs: Or = { 50,52,53 }, 54 ) gets occupied, then Austria achieves independence
+-If Germany wins, Austria is cored because most resistance was wiped
