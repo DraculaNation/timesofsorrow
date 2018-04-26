@@ -19,6 +19,8 @@ set_technology = {
 
 set_convoys = 100
 
+set_country_flag = american_splinter_state
+
 set_politics = {
 
 	parties = {

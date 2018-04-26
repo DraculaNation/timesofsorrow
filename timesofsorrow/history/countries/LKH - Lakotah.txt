@@ -16,6 +16,8 @@ set_technology = {
 	early_submarine = 1
 }
 
+set_country_flag = american_splinter_state
+
 set_convoys = 100
 
 set_politics = {
