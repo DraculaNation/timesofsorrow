@@ -1,0 +1,67 @@
+﻿add_namespace = tos_diplomacy
+
+#Asking for an alliance
+country_event = {
+	id = tos_diplomacy.1
+	title = tos_diplomacy.1.t
+	desc = tos_diplomacy.1.d
+	picture = GFX_news_event_generic_sign_treaty1
+	is_triggered_only = yes
+	
+	option = {
+		name = tos_diplomacy.1.a
+		ai_chance = {
+			factor = 50
+			modifier = { 
+				factor = 2
+				has_opinion = { target = FROM value > 40 }
+			}
+			modifier = { 
+				factor = 0
+				has_opinion = { target = FROM value < 10 }
+			}
+		}
+		add_to_faction = FROM
+		FROM = { country_event = { days = 1 id = tos_diplomacy.2 } }
+	}
+		
+	option = {
+		name = tos_diplomacy.1.b
+		ai_chance = {
+			factor = 50
+			modifier = { 
+				factor = 0.2
+				has_opinion = { target = FROM value > 45 }
+			}
+		}
+		FROM = { country_event = { days = 1 id = tos_diplomacy.3 } }
+	}
+}
+
+country_event = {
+	id = tos_diplomacy.2
+	title = tos_diplomacy.2.t
+	desc = tos_diplomacy.2.d
+	picture = GFX_news_event_generic_sign_treaty1
+	is_triggered_only = yes
+	
+	option = {
+		name = tos_diplomacy.2.a
+		ai_chance = { factor = 100 }
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = tos_diplomacy.3
+	title = tos_diplomacy.3.t
+	desc = tos_diplomacy.3.d
+	picture = GFX_news_event_generic_sign_treaty1
+	is_triggered_only = yes
+	
+	option = {
+		name = tos_diplomacy.3.a
+		ai_chance = { factor = 100 }
+		add_political_power = -5
+	}
+}

@@ -22,3 +22,11 @@ america_dominance = {
 expansion_and_coring_decisions = {
 	icon = generic_political_actions
 }
+
+america_dominance_skirmishes = {
+	icon = generic_democracy
+}
+
+regional_diplomacy_decisions = {
+	icon = generic_propaganda
+}

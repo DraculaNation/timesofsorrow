@@ -1,0 +1,42 @@
+﻿l_english:
+
+ ### Ideas
+  tos_sovereignty:0 "Sovereignty"
+  tos_svr_unrecognized:0 "Unrecognized"
+  tos_svr_unrecognized_desc:0 "Our state lack international regonition, and therefore, it will be very difficult for our government to be taken seriously by anyone else. It has a serious effect on our citizens."
+  tos_svr_rebellion:0 "Rebellion"
+  tos_svr_rebellion_desc:0 "We are currently fighting a war against a rival, official government. While we're adapted to this state of war, our government is still inefficient, and we have yet to step into the international world."
+  tos_svr_partially_recognized:0 "Partially Recognized"
+  tos_svr_partially_recognized_desc:0 "Around the world, we have only been recognized by several countries. However, some countries are threatening our sovereignty. Therefore, our government is somewhat inefficient, and we cannot step into the world's politics."
+  tos_svr_internationally_recognized:0 "Internationally Recognized"
+  tos_svr_internationally_recognized_desc:0 "Around the world, most, if not all countries have recognized our sovereignty. We suffer no problems in the international scene because of that."
+  tos_diplomatic_aim:0 "Diplomatic Aim"
+  tos_diplo_internal_focus:0 "Internal Focus"
+  tos_diplo_internal_focus_desc:0 "In order for our country to be stable, we need to focus on fixing our internal troubles, instead of actively participating both in our region and in the world."
+  tos_diplo_regional_focus:0 "Regional Focus"
+  tos_diplo_regional_focus_desc:0 "In order for our country not to be bothered by the international scene, we need to only act and react in our regional scene. This would prove to make our government a bit more stable."
+  tos_diplo_international_focus:0 "International Focus"
+  tos_diplo_international_focus_desc:0 "If our country is stable enough to support itself in our regional endeavors, we should be able to jump into the international scene, and play a part in tryong to mold the world to our liking."
+
+ ### Decisions
+  regional_diplomacy_decisions:0 "Regional Diplomacy"
+  regional_diplomacy_decisions_desc:0 "Our diplomatic aim makes us only interact with regional countries, or any other countries that are directly involved with them."
+  tos_reg_guarantee_bordering_country:0 "Guarantee [FROM.GetNameDEF]"
+  tos_reg_guarantee_bordering_country_desc:0 "If we have a reason, we can guarantee [FROM.GetNameDEF] in order to secure our position in the region."
+  tos_reg_justify_war_goal:0 "Justify Against [FROM.GetNameDEF]"
+  tos_reg_justify_war_goal_desc:0 "For whatever reason, we can justify conquering a state from [FROM.GetNameDEF]. It will help us grow more powerful."
+  tos_reg_join_alliance:0 "Request to Join The [FROM.GetFaction]"
+  tos_reg_join_alliance_desc:0 "If we want to secure our position, we can request to join the [FROM.GetFaction], since our [FROM.GetNameADJ] neighbors are in it."
+ ### Events
+  tos_diplomacy.1.t:0 "[FROM.GetName] in the [ROOT.GetFaction]?"
+  tos_diplomacy.1.d:0 "Recently, a diplomatic representative from [FROM.GetNameDEF] has come into contact with us, and says that the [FROM.GetNameADJ] government has expressed a wish to join the [ROOT.GetFaction]. Shall we include them in our alliance, or shall we decline their proposal?"
+  tos_diplomacy.1.a:0 "Welcome to [ROOT.GetFaction], brothers."
+  tos_diplomacy.1.b:0 "[FROM.GetNameDEF] has no place in [ROOT.GetFaction]."
+  
+  tos_diplomacy.2.t:0 "We have been accepted into the [FROM.GetFaction]!"
+  tos_diplomacy.2.d:0 "Following our request to join [FROM.GetNameDEF]'s alliance, our representative has come bearing good news. The [FROM.GetNameADJ] government has confirmed our entrance into the [FROM.GetFaction]! We now bear that responsibility, as do they."
+  tos_diplomacy.2.a:0 "We knew we could count on [FROM.GetNameDEF]!"
+  
+  tos_diplomacy.3.t:0 "We have been refused from the [FROM.GetFaction]!"
+  tos_diplomacy.3.d:0 "Following our request to join [FROM.GetNameDEF]'s alliance, our representative has come bearing bad news. The [FROM.GetNameADJ] government has refused our entrance into the [FROM.GetFaction]! At least we won't get dragged into their wars, right?"
+  tos_diplomacy.3.a:0 "At least we tried..."
