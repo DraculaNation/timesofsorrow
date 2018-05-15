@@ -12,6 +12,8 @@ communism_desc:0 "Socialist Regime"
 democratic_desc:0 "Authoritarian Regime"
 neutrality_desc:0 "Disjointed Regime"
 
+democratic_reformer:0 "Statist Reformer"
+
 conservatism:0 "Republicanist"
 conservatism_desc:0 "Although having democratic principles, republicansists, also known as dictatorial republics, carefully balance power between various factions in the state, usually with the people having little to no influence. This enables the government to perform actions that would otherwise be met with significant political resistance, such as declaring war on other countries. The term 'republicanist' can also be extended to encompass various, corruption-filled, flawed democracies in the world, where the ruling party always wins."
 liberalism:0 "Authoritarian"

@@ -26,6 +26,17 @@
   USA_columbia_neutrality_ADJ:0 "Columbian"
   USA_columbia_communism_ADJ:0 "Columbian"
 
+ ### Opinions
+ 
+  USA_dustbowl_help:0 "Helped us with the Dust Bowl"
+  USA_dustbowl_refusal:0 "Refused to help us with the Dust Bowl"
+ 
+ ### Tooltips
+ 
+  USA_mormons_surpressed:0 "§YThe Mormons have been surpressed§!"
+  USA_mormons_surpressed_tooltip:0 "§GThe Mormons influence will be lowered."
+  USA_dustbowl_helped:0 "We will help some states with the Dust Bowl."
+  
  ### Ideas
  
   ### Placeholder
@@ -36,4 +47,41 @@
   
  ### Events
  
-  ### Placeholder
+  tos_usa.1.t:0 "Status of the United States of America"
+  tos_usa.1.d:0 "The Great War was anything except good for the Americans. Our absence in The Great War has costed us the trust of our European allies. However, what we didn't prepare for was getting hit by the Great Depression, which caused a huge amount of chaos and unrest all over our country. As our previous president, Herbert Hoover, tried to stabilize things, he made it much worse. However, people were looking for change as they elected Franklin Delano Roosevelt, only to be met with another inefficient administrations, that focused on slowly reversing Hoover's reforms. This has caused huge unrest, mostly in parts that were hit hardest by the depression, such as Texas and California. Some of these rebellious states have declared independence, and in order to avoid war and more chaos, the best we can do is not to recognise them.\nWill the United States of America prevail, in spite of all the odds against them, or will they fall?"
+  tos_usa.1.a:0 "God Bless America!"
+  
+  tos_usa.2.t:0 "Lincoln Confederacy is Formed!"
+  tos_usa.2.d:0 "Today, Barzilla W. Clark and Roy E. Ayers were declared as the governor of Idaho and Montana, respectively, we received a formal letter signed by them and Clarence D. Martin, saying that our government has no power in the states of Washington, Idaho and Montana. As we sent our military to stabilize the situation, we could only manage to secure Southern Idaho and Eastern Montana. As it is too late, and the majority of state institutions, such as their police, have defected, there is no option for us but to leave things as they are, recognise their territory as integral parts of the United States, and hope for the best."
+  tos_usa.2.a:0 "Sooner or later, they'll be back under our control!"
+  tos_usa.2.b:0 "Long live the Lincoln Confederacy! (Play as the Lincolnites)"
+  
+  tos_usa.3.t:0 "New England Declares Independence!"
+  tos_usa.3.d:0 "Following the inaurugation of Lewis O. Barrows as the governor of Maine, he has been plotting with other governors to secede from our country, and eventually, that lead to the events unfolding today. As the public support for New Englander independence is huge, it would be very difficult for us to hinder them. Rumors have also been going around about New England being a ground of influence for various foreign nations, such as Great Britain and, for some reason, Portugal. As war is, yet again, out of our reach, the only thing we can do is not recognise them and hope for the best."
+  tos_usa.3.a:0 "Do they even worry about Vesperia?"
+  tos_usa.3.b:0 "New England will prosper! (Play as New England)"
+  
+  tos_usa.4.t:0 "The Mormons Declare Independence!"
+  tos_usa.4.d:0 "Today, in a very odd move, The Church of Jesus Christ of Latter-day Saints has managed to declare independence from us! As the areas that they currently control are being wrecked by the depression, they have promised to take several 'unique approaches' to the issue. With such a... weird country breaking away from us, we still think that declaring war would still be an awful idea. Luckily they receive very little recognition, outside of a couple insignificant countries."
+  tos_usa.4.a:0 "This is crazy..."
+  tos_usa.4.b:0 "Choose the Right! (Play as Deseret)"
+  
+  tos_usa.5.t:0 "Mormon Influence Growing"
+  tos_usa.5.d:0 "Today, we have received news that The Church of Jesus Christ of Latter-day Saints has managed to stretch its influence across severla other states, like Arizona and Nevada. As they have started discrediting the government, people that aren't even mormons have promised to help their cause. We can try and halt their influence, though it would take some effort."
+  tos_usa.5.a:0 "Leave them be..."
+  tos_usa.5.b:0 "Try to halt their influences!"
+  
+  tos_usa.6.t:0 "Lakotah Declares Independence!"
+  tos_usa.6.d:0 "Citing our lack of care during the Dust Bowl, as well as our general mistreatment of farmers, both of our Dakotas have declared independence, under the name Lakotah, and headed by a Native American - Ben Black Elk. As their farmers are refusing to trade with the rest of the country as some kind of a protest, this won't affect other states as much. Still, day by day, we're growing weaker, and we can't take any actions against them except the lack of our recognition."
+  tos_usa.6.a:0 "Is Manifest Destiny backfiring on us?"
+  tos_usa.6.b:0 "Down with the Federalist tyrants! (Play as Lakotah)"
+  
+  tos_usa.7.t:0 "States ask for Help!"
+  tos_usa.7.d:0 "Over the course of a couple of days, several states have requested us to spare some resources and help them in the Dust Bowl, which is currently roaring through most of the United States. We  could tell them to wait it out and risk more instability, or we could divert our resources, which are already spent on vital things, to those states. Though the help might not be much, it will still save some lives."
+  tos_usa.7.a:0 "We can't do anything..."
+  tos_usa.7.b:0 "Helping with the Dust Bowl is our top priority!"
+  tos_usa.7.c:0 "Texan Union and Pacific Federation are also a part of us!"
+  
+  tos_usa.8.t:0 "The Dust Bowl Intensifies!"
+  tos_usa.8.d:0 "Slowly but steadily, day by day, the Dust Bowl has been getting more dire. Today, it has reached critical levels for us to consider it a huge national emergency. Sadly, our rescue teams are very ineffective, and we are losing our grip on our westernmost states. This means that they're easy pickings for the other, seceded states. All in all, despite our western territories suffering, the East Coast is still relatively unaffected."
+  tos_usa.8.a:0 "It never seems to stop..."

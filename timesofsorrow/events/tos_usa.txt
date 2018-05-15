@@ -1,0 +1,361 @@
+﻿add_namespace = tos_usa
+
+country_event = { #Intro text
+	id = tos_usa.1
+	title = tos_usa.1.t
+	desc = tos_usa.1.d
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = USA
+	}
+		
+	option = {
+		name = tos_usa.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #Lincoln Confederacy declares independence
+	id = tos_usa.2
+	title = tos_usa.2.t
+	desc = tos_usa.2.d
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = USA
+		OR = {
+			owns_state = 386
+			owns_state = 388
+			owns_state = 776
+		}
+		date > 1936.1.4 #Japanese date system
+		LIN = { exists = no }
+	}
+		
+	option = {
+		name = tos_usa.2.a
+		ai_chance = { factor = 100 }
+		if = { 
+			limit = { owns_state = 776 }
+			LIN = { transfer_state = 776 }
+		}
+		if = { 
+			limit = { owns_state = 386 }
+			LIN = { transfer_state = 386 }
+		}
+		if = { 
+			limit = { owns_state = 388 }
+			LIN = { transfer_state = 388 }
+		}
+		add_political_power = -70
+		add_stability = -0.1
+	}
+	option = {
+		name = tos_usa.2.b
+		ai_chance = { factor = 0 }
+		if = { 
+			limit = { owns_state = 776 }
+			LIN = { transfer_state = 776 }
+		}
+		if = { 
+			limit = { owns_state = 386 }
+			LIN = { transfer_state = 386 }
+		}
+		if = { 
+			limit = { owns_state = 388 }
+			LIN = { transfer_state = 388 }
+		}
+		add_political_power = -70
+		add_stability = -0.1
+		LIN = { change_tag_from = USA }
+	}
+}
+country_event = { #New England declares independence
+	id = tos_usa.3
+	title = tos_usa.3.t
+	desc = tos_usa.3.d
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = USA
+		OR = {
+			owns_state = 770
+			owns_state = 357 
+		}
+		date > 1936.1.29 #Japanese date system
+		NEW = { exists = no }
+	}
+		
+	option = {
+		name = tos_usa.3.a
+		ai_chance = { factor = 100 }
+		if = { 
+			limit = { owns_state = 770 }
+			NEW = { transfer_state = 770 }
+		}
+		if = { 
+			limit = { owns_state = 357 }
+			NEW = { transfer_state = 357 }
+		}
+		add_political_power = -90
+		add_stability = -0.15
+	}
+	option = {
+		name = tos_usa.3.b
+		ai_chance = { factor = 0 }
+		if = { 
+			limit = { owns_state = 770 }
+			NEW = { transfer_state = 770 }
+		}
+		if = { 
+			limit = { owns_state = 357 }
+			NEW = { transfer_state = 357 }
+		}
+		add_political_power = -90
+		add_stability = -0.15
+		NEW = { change_tag_from = USA }
+	}
+}
+country_event = { #Deseret declares independence
+	id = tos_usa.4
+	title = tos_usa.4.t
+	desc = tos_usa.4.d
+	mean_time_to_happen = { days = 20 modifier = { factor = 0.5 has_country_flag = USA_mormons_surpressed } }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = USA
+		OR = {
+			owns_state = 380 #Utah
+			owns_state = 379 #Nevada
+			owns_state = 377 #Arizona
+		}
+		date > 1936.2.20 #Japanese date system
+		DES = { exists = no }
+	}
+		
+	option = {
+		name = tos_usa.4.a
+		ai_chance = { factor = 100 }
+		if = { 
+			limit = { owns_state = 380 }
+			DES = { transfer_state = 380 }
+		}
+		if = { 
+			limit = { owns_state = 379 }
+			DES = { transfer_state = 379 }
+		}
+		if = { 
+			limit = {
+				owns_state = 377 
+				NOT = { has_country_flag = USA_mormons_surpressed }
+			}
+			DES = { transfer_state = 377 }
+		}
+		add_political_power = -40
+		add_stability = -0.04
+	}
+	option = {
+		name = tos_usa.4.b
+		ai_chance = { factor = 0 }
+		if = { 
+			limit = { owns_state = 380 }
+			DES = { transfer_state = 380 }
+		}
+		if = { 
+			limit = { owns_state = 379 }
+			DES = { transfer_state = 379 }
+		}
+		if = { 
+			limit = {
+				owns_state = 377 
+				NOT = { has_country_flag = USA_mormons_surpressed }
+			}
+			DES = { transfer_state = 377 }
+		}
+		add_political_power = -40
+		add_stability = -0.04
+		DES = { change_tag_from = USA }
+	}
+}
+country_event = { #Mormon Influence Growing
+	id = tos_usa.5
+	title = tos_usa.5.t
+	desc = tos_usa.5.d
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = USA
+		OR = {
+			owns_state = 380 #Utah
+			owns_state = 379 #Nevada
+			owns_state = 377 #Arizona
+		}
+		date > 1936.2.4 #Japanese date system
+		DES = { exists = no }
+	}
+		
+	option = {
+		name = tos_usa.5.a
+		ai_chance = { factor = 50 }
+		add_stability = -0.025
+	}
+	option = {
+		name = tos_usa.5.b
+		ai_chance = { factor = 50 }
+		add_political_power = -25
+		custom_effect_tooltip = USA_mormons_surpressed_tooltip
+		hidden_effect = { set_country_flag = USA_mormons_surpressed }
+	}
+}
+country_event = { #Lakotah declares independence
+	id = tos_usa.6
+	title = tos_usa.6.t
+	desc = tos_usa.6.d
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = USA
+		OR = {
+			owns_state = 389 #North Dakota
+			owns_state = 390 #South Dakota
+			owns_state = 780 #SE Dakota
+			owns_state = 781 #NW Dakota
+		}
+		date > 1936.3.16 #Japanese date system
+		LKH = { exists = no }
+	}
+		
+	option = {
+		name = tos_usa.6.a
+		ai_chance = { factor = 100 }
+		if = { 
+			limit = { owns_state = 389 }
+			LKH = { transfer_state = 389 }
+		}
+		if = { 
+			limit = { owns_state = 390 }
+			LKH = { transfer_state = 390 }
+		}
+		if = { 
+			limit = { 
+				owns_state = 780
+				NOT = { has_country_flag = USA_dustbowl_helped }
+			}
+			LKH = { transfer_state = 780 }
+		}
+		if = { 
+			limit = { 
+				owns_state = 781
+				NOT = { has_country_flag = USA_dustbowl_helped }
+			}
+			LKH = { transfer_state = 781 }
+		}
+		add_political_power = -50
+		add_stability = -0.05
+	}
+	option = {
+		name = tos_usa.6.b
+		ai_chance = { factor = 0 }
+		if = { 
+			limit = { owns_state = 389 }
+			LKH = { transfer_state = 389 }
+		}
+		if = { 
+			limit = { owns_state = 390 }
+			LKH = { transfer_state = 390 }
+		}
+		if = { 
+			limit = { 
+				owns_state = 780
+				NOT = { has_country_flag = USA_dustbowl_helped }
+			}
+			LKH = { transfer_state = 780 }
+		}
+		if = { 
+			limit = { 
+				owns_state = 781
+				NOT = { has_country_flag = USA_dustbowl_helped }
+			}
+			LKH = { transfer_state = 781 }
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		LKH = { change_tag_from = USA }
+	}
+}
+country_event = { #Dustbowl Plea For Help
+	id = tos_usa.7
+	title = tos_usa.7.t
+	desc = tos_usa.7.d
+	mean_time_to_happen = { days = 14 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = USA
+		date > 1936.5.14 #Japanese date system
+	}
+		
+	option = {
+		name = tos_usa.7.a
+		ai_chance = { factor = 50 }
+		add_stability = -0.025
+		reverse_add_opinion_modifier = { target = TEX modifier = USA_dustbowl_refusal }
+		reverse_add_opinion_modifier = { target = PAC modifier = USA_dustbowl_refusal }
+		hidden_effect = {
+			reverse_add_opinion_modifier = { target = LIN modifier = USA_dustbowl_refusal }
+			reverse_add_opinion_modifier = { target = DES modifier = USA_dustbowl_refusal }
+			reverse_add_opinion_modifier = { target = LKH modifier = USA_dustbowl_refusal }
+		}
+	}
+	option = {
+		name = tos_usa.7.b
+		ai_chance = { factor = 30 }
+		add_political_power = -30
+		set_country_flag = USA_dustbowl_helped
+		reverse_add_opinion_modifier = { target = TEX modifier = USA_dustbowl_refusal }
+		reverse_add_opinion_modifier = { target = PAC modifier = USA_dustbowl_refusal }
+		hidden_effect = {
+			reverse_add_opinion_modifier = { target = LIN modifier = USA_dustbowl_help }
+			reverse_add_opinion_modifier = { target = DES modifier = USA_dustbowl_help }
+			reverse_add_opinion_modifier = { target = LKH modifier = USA_dustbowl_help }
+		}
+	}
+	option = {
+		name = tos_usa.7.c
+		ai_chance = { factor = 20 }
+		add_political_power = -50
+		set_country_flag = USA_dustbowl_helped
+		reverse_add_opinion_modifier = { target = TEX modifier = USA_dustbowl_help }
+		reverse_add_opinion_modifier = { target = PAC modifier = USA_dustbowl_help }
+		hidden_effect = {
+			reverse_add_opinion_modifier = { target = LIN modifier = USA_dustbowl_help }
+			reverse_add_opinion_modifier = { target = DES modifier = USA_dustbowl_help }
+			reverse_add_opinion_modifier = { target = LKH modifier = USA_dustbowl_help }
+		}
+	}
+}
+country_event = { #Dustbowl Intensifies
+	id = tos_usa.8
+	title = tos_usa.8.t
+	desc = tos_usa.8.d
+	mean_time_to_happen = { days = 4 }
+	fire_only_once = yes
+		
+	trigger = {
+		TAG = USA
+		date > 1937.6.1 #Japanese date system
+	}
+		
+	option = {
+		name = tos_usa.7.a
+		ai_chance = { factor = 100 }
+
+	}
+}

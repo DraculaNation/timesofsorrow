@@ -1,7 +1,0 @@
-opinion_modifiers = {
-	
-	POL_opinion_soviet_focus_positive = {
-		value = 50
-	}
-	
-}

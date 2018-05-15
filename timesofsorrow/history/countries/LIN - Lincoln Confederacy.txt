@@ -58,6 +58,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Roy E. Ayers"
+	picture = "Portrait_Lincoln_Roy_Ayers.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
 create_corps_commander = {
 	name = "Lloyd Fredendall"
 	picture = "gfx/leaders/USA/Portrait_USA_Lloyd_Fredendall.dds"

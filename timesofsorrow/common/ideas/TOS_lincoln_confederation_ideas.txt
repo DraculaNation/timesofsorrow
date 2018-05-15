@@ -1,0 +1,147 @@
+ideas = {
+
+country = {
+	LIN_green_industry_idea = {
+		allowed = {
+			always = yes
+		}
+		
+		removal_cost = -1
+		
+		picture = generic_agrarian_society
+		
+		modifier = {
+			industry_air_damage_factor = -0.33
+			industry_free_repair_factor = 1
+			production_factory_max_efficiency_factor = -0.1
+		}
+	}
+}
+
+political_advisor = {
+
+	LIN_clarence_martin = {
+
+		picture = generic_political_advisor_europe_6
+
+		allowed = {
+			original_tag = LIN
+		}
+		
+		traits = { silent_workhorse }
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	LIN_roy_ayers = {
+
+		picture = generic_army_europe_1
+
+		allowed = {
+			original_tag = LIN
+		}
+		
+		traits = { democratic_reformer }
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+theorist = {
+
+	#POL_tomislaw_lupaszko = {
+	#			
+	#			
+	#	allowed = {
+	#		original_tag = POL
+	#	}
+	#	
+	#	picture = generic_army_europe_6
+	#	
+	#	research_bonus = {
+	#		land_doctrine = 0.07
+	#	}
+	#	
+	#	traits = { military_theorist }
+	#}
+
+}
+
+	# MILITARY
+	#army_chief = {
+	
+	#	POL_edward_rydz_smigly = {
+	#		
+	#		picture = generic_army_europe_1
+	#		
+	#		allowed = {
+	#			original_tag = POL
+	#		}
+	#		
+	#		traits = { army_chief_offensive_2 }
+	#		
+	#		ai_will_do = {
+	#			factor = 1
+	#		}
+	#	}
+
+	}
+
+	air_chief = {
+		
+		#POL_jozef_zajac = {
+		#	
+		#	picture = generic_air_europe_1
+		#	
+		#	allowed = {
+		#		original_tag = POL
+		#	}
+		#	traits = { air_chief_reform_2 }
+		#	
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+	}
+
+
+	navy_chief = {
+		
+		#POL_josef_unrug = {
+		#	
+		#	picture = generic_navy_europe_2
+		#	
+		#	allowed = {
+		#		original_tag = POL
+		#	}
+		#	
+		#	traits = { navy_chief_maneuver_2 }
+		#	
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+	}
+	
+	
+	high_command = {
+		#POL_zygmunt_buhusz_szysko = {	
+		#	allowed = {
+		#		original_tag = POL
+		#	}
+		#	
+		#	picture = generic_army_europe_1
+		#	
+		#	traits = { army_infantry_2 }
+		#	
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+	}
+}
+
+}

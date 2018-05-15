@@ -15,7 +15,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_core_of = LKH
 		victory_points = {
 			1836 1 
 		}

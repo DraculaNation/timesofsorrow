@@ -1,0 +1,17 @@
+opinion_modifiers = {
+	
+	POL_opinion_soviet_focus_positive = {
+		value = 50
+	}
+	
+	USA_dustbowl_help = {
+		value = 40
+		years = 2
+	}
+
+	USA_dustbowl_refusal= {
+		value = -40
+		years = 2
+	}
+
+}
