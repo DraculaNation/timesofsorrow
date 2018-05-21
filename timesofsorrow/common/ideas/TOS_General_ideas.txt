@@ -9,7 +9,8 @@ ideas = {
 			allowed_to_remove = { always = no }
 			available = { always = no }
 			cancel_if_invalid = no
-
+			picture = svr_unrecognized
+			
 			modifier = {
 				stability_factor = -0.3
 				political_power_factor = -0.25
@@ -24,7 +25,8 @@ ideas = {
 			allowed_to_remove = { always = no }
 			available = { always = no }
 			cancel_if_invalid = no
-
+			picture = svr_rebellion
+			
 			modifier = {
 				stability_factor = -0.4
 				political_power_factor = -0.1
@@ -39,7 +41,8 @@ ideas = {
 			allowed_to_remove = { always = no }
 			available = { always = no }
 			cancel_if_invalid = no
-
+			picture = svr_partially_recognized
+			
 			modifier = {
 				stability_factor = -0.15
 				political_power_factor = -0.1
@@ -51,6 +54,7 @@ ideas = {
 			allowed_to_remove = { always = no }
 			available = { always = no }
 			cancel_if_invalid = no
+			picture = svr_internationally_recognized
 
 			default = yes
 			

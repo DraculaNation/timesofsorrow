@@ -17,6 +17,7 @@ set_technology = {
 }
 
 set_country_flag = american_splinter_state
+add_ideas = tos_svr_partially_recognized
 
 set_convoys = 100
 
