@@ -1,0 +1,25 @@
+spriteTypes = {	
+
+	### Sovereignty GFX
+
+	spriteType = {
+		name = "GFX_idea_svr_internationally_recognized"
+		texturefile = "gfx/interface/ideas/tos_svr_internationally_recognized.tga"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_svr_partially_recognized"
+		texturefile = "gfx/interface/ideas/tos_svr_partially_recognized.tga"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_svr_rebellion"
+		texturefile = "gfx/interface/ideas/tos_svr_rebellion.tga"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_svr_unrecognized"
+		texturefile = "gfx/interface/ideas/tos_svr_unrecognized.tga"
+	}	
+	
+}
