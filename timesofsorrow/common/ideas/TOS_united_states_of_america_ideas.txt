@@ -1,0 +1,95 @@
+ideas = {
+
+country = {
+
+		USA_great_depression_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = great_depression
+			
+			modifier = {
+				political_power_cost = 1.2
+				consumer_goods_factor = 0.5
+				conscription_factor = -0.6
+				join_faction_tension = 1
+			}
+		}
+
+		USA_great_depression_stabilizing_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = great_depression
+			
+			modifier = {
+				political_power_cost = 0.9
+				consumer_goods_factor = 0.3
+				conscription_factor = -0.4
+				join_faction_tension = 0.3
+			}
+		}
+		
+		USA_dust_bowl_idea = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_agrarian_society
+			
+			modifier = {
+				stability_factor = -0.10
+				trade_laws_cost_factor = 3
+				attrition = 0.15
+				MONTHLY_POPULATION = -0.33
+				consumer_goods_factor = 0.2
+			}
+		}
+		
+		USA_dust_bowl_intensified_idea = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_agrarian_society
+			
+			modifier = {
+				stability_factor = -0.15
+				trade_laws_cost_factor = 3
+				attrition = 0.2
+				MONTHLY_POPULATION = -0.5
+				consumer_goods_factor = 0.33
+			}
+		}
+		
+		USA_confederate_unrest_idea = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_agrarian_society
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.2
+				fascism_drift = 0.01
+			}
+		}
+		
+	}
+
+}

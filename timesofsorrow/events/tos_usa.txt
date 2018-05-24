@@ -40,15 +40,23 @@ country_event = { #Lincoln Confederacy declares independence
 		ai_chance = { factor = 100 }
 		if = { 
 			limit = { owns_state = 776 }
-			LIN = { transfer_state = 776 }
+			LIN = { transfer_state = 776 add_state_core = 776 }
 		}
 		if = { 
 			limit = { owns_state = 386 }
-			LIN = { transfer_state = 386 }
+			LIN = { transfer_state = 386 add_state_core = 386 }
 		}
 		if = { 
 			limit = { owns_state = 388 }
-			LIN = { transfer_state = 388 }
+			LIN = { transfer_state = 388 add_state_core = 388 }
+		}
+		USA = {
+			remove_state_core = 776
+			remove_state_core = 386
+			remove_state_core = 388
+			add_state_claim = 776
+			add_state_claim = 386
+			add_state_claim = 388
 		}
 		add_political_power = -70
 		add_stability = -0.1
@@ -58,15 +66,23 @@ country_event = { #Lincoln Confederacy declares independence
 		ai_chance = { factor = 0 }
 		if = { 
 			limit = { owns_state = 776 }
-			LIN = { transfer_state = 776 }
+			LIN = { transfer_state = 776 add_state_core = 776 }
 		}
 		if = { 
 			limit = { owns_state = 386 }
-			LIN = { transfer_state = 386 }
+			LIN = { transfer_state = 386 add_state_core = 386 }
 		}
 		if = { 
 			limit = { owns_state = 388 }
-			LIN = { transfer_state = 388 }
+			LIN = { transfer_state = 388 add_state_core = 388 }
+		}
+		USA = {
+			remove_state_core = 776
+			remove_state_core = 386
+			remove_state_core = 388
+			add_state_claim = 776
+			add_state_claim = 386
+			add_state_claim = 388
 		}
 		add_political_power = -70
 		add_stability = -0.1
@@ -95,11 +111,17 @@ country_event = { #New England declares independence
 		ai_chance = { factor = 100 }
 		if = { 
 			limit = { owns_state = 770 }
-			NEW = { transfer_state = 770 }
+			NEW = { transfer_state = 770 add_state_core = 770 }
 		}
 		if = { 
 			limit = { owns_state = 357 }
-			NEW = { transfer_state = 357 }
+			NEW = { transfer_state = 357 add_state_core = 357 }
+		}
+		USA = {
+			remove_state_core = 770
+			remove_state_core = 357
+			add_state_claim = 770
+			add_state_claim = 357
 		}
 		add_political_power = -90
 		add_stability = -0.15
@@ -109,11 +131,17 @@ country_event = { #New England declares independence
 		ai_chance = { factor = 0 }
 		if = { 
 			limit = { owns_state = 770 }
-			NEW = { transfer_state = 770 }
+			NEW = { transfer_state = 770 add_state_core = 770 }
 		}
 		if = { 
 			limit = { owns_state = 357 }
-			NEW = { transfer_state = 357 }
+			NEW = { transfer_state = 357 add_state_core = 357 }
+		}
+		USA = {
+			remove_state_core = 770
+			remove_state_core = 357
+			add_state_claim = 770
+			add_state_claim = 357
 		}
 		add_political_power = -90
 		add_stability = -0.15
@@ -143,18 +171,29 @@ country_event = { #Deseret declares independence
 		ai_chance = { factor = 100 }
 		if = { 
 			limit = { owns_state = 380 }
-			DES = { transfer_state = 380 }
+			DES = { transfer_state = 380 add_state_core = 380 }
 		}
 		if = { 
-			limit = { owns_state = 379 }
-			DES = { transfer_state = 379 }
+			limit = { owns_state = 379  }
+			DES = { transfer_state = 379 add_state_core = 379 }
 		}
 		if = { 
 			limit = {
 				owns_state = 377 
 				NOT = { has_country_flag = USA_mormons_surpressed }
 			}
-			DES = { transfer_state = 377 }
+			DES = { transfer_state = 377 add_state_core = 377 }
+		}
+		USA = {
+			remove_state_core = 380
+			remove_state_core = 379
+			if = {
+				limit = { NOT = { has_country_flag = USA_mormons_surpressed } }
+				remove_state_core = 377
+				add_state_claim = 377
+			}
+			add_state_claim = 380
+			add_state_claim = 379
 		}
 		add_political_power = -40
 		add_stability = -0.04
@@ -164,18 +203,29 @@ country_event = { #Deseret declares independence
 		ai_chance = { factor = 0 }
 		if = { 
 			limit = { owns_state = 380 }
-			DES = { transfer_state = 380 }
+			DES = { transfer_state = 380 add_state_core = 380 }
 		}
 		if = { 
 			limit = { owns_state = 379 }
-			DES = { transfer_state = 379 }
+			DES = { transfer_state = 379 add_state_core = 379 }
 		}
 		if = { 
 			limit = {
 				owns_state = 377 
 				NOT = { has_country_flag = USA_mormons_surpressed }
 			}
-			DES = { transfer_state = 377 }
+			DES = { transfer_state = 377 add_state_core = 377 }
+		}
+		USA = {
+			remove_state_core = 380
+			remove_state_core = 379
+			if = {
+				limit = { NOT = { has_country_flag = USA_mormons_surpressed } }
+				remove_state_core = 377
+				add_state_claim = 377
+			}
+			add_state_claim = 380
+			add_state_claim = 379
 		}
 		add_political_power = -40
 		add_stability = -0.04
@@ -237,25 +287,38 @@ country_event = { #Lakotah declares independence
 		ai_chance = { factor = 100 }
 		if = { 
 			limit = { owns_state = 389 }
-			LKH = { transfer_state = 389 }
+			LKH = { transfer_state = 389 add_state_core = 389 }
 		}
 		if = { 
 			limit = { owns_state = 390 }
-			LKH = { transfer_state = 390 }
+			LKH = { transfer_state = 390 add_state_core = 390 }
 		}
 		if = { 
 			limit = { 
 				owns_state = 780
 				NOT = { has_country_flag = USA_dustbowl_helped }
 			}
-			LKH = { transfer_state = 780 }
+			LKH = { transfer_state = 780 add_state_core = 780 }
 		}
 		if = { 
 			limit = { 
 				owns_state = 781
 				NOT = { has_country_flag = USA_dustbowl_helped }
 			}
-			LKH = { transfer_state = 781 }
+			LKH = { transfer_state = 781 add_state_core = 781 }
+		}
+		USA = {
+			remove_state_core = 389
+			remove_state_core = 390
+			if = { 
+				limit = { NOT = { has_country_flag = USA_dustbowl_helped } } 
+				remove_state_core = 780
+				remove_state_core = 781
+				add_state_claim = 780
+				add_state_claim = 781
+			}
+			add_state_claim = 389
+			add_state_claim = 390
 		}
 		add_political_power = -50
 		add_stability = -0.05
@@ -265,25 +328,38 @@ country_event = { #Lakotah declares independence
 		ai_chance = { factor = 0 }
 		if = { 
 			limit = { owns_state = 389 }
-			LKH = { transfer_state = 389 }
+			LKH = { transfer_state = 389 add_state_core = 389 }
 		}
 		if = { 
 			limit = { owns_state = 390 }
-			LKH = { transfer_state = 390 }
+			LKH = { transfer_state = 390 add_state_core = 390 }
 		}
 		if = { 
 			limit = { 
 				owns_state = 780
 				NOT = { has_country_flag = USA_dustbowl_helped }
 			}
-			LKH = { transfer_state = 780 }
+			LKH = { transfer_state = 780 add_state_core = 780 }
 		}
 		if = { 
 			limit = { 
 				owns_state = 781
 				NOT = { has_country_flag = USA_dustbowl_helped }
 			}
-			LKH = { transfer_state = 781 }
+			LKH = { transfer_state = 781 add_state_core = 781 }
+		}
+		USA = {
+			remove_state_core = 389
+			remove_state_core = 390
+			if = { 
+				limit = { NOT = { has_country_flag = USA_dustbowl_helped } } 
+				remove_state_core = 780
+				remove_state_core = 781
+				add_state_claim = 780
+				add_state_claim = 781
+			}
+			add_state_claim = 389
+			add_state_claim = 390
 		}
 		add_political_power = -50
 		add_stability = -0.05
@@ -307,9 +383,7 @@ country_event = { #Dustbowl Plea For Help
 		ai_chance = { factor = 50 }
 		add_stability = -0.025
 		reverse_add_opinion_modifier = { target = TEX modifier = USA_dustbowl_refusal }
-		reverse_add_opinion_modifier = { target = PAC modifier = USA_dustbowl_refusal }
 		hidden_effect = {
-			reverse_add_opinion_modifier = { target = LIN modifier = USA_dustbowl_refusal }
 			reverse_add_opinion_modifier = { target = DES modifier = USA_dustbowl_refusal }
 			reverse_add_opinion_modifier = { target = LKH modifier = USA_dustbowl_refusal }
 		}
@@ -320,9 +394,7 @@ country_event = { #Dustbowl Plea For Help
 		add_political_power = -30
 		set_country_flag = USA_dustbowl_helped
 		reverse_add_opinion_modifier = { target = TEX modifier = USA_dustbowl_refusal }
-		reverse_add_opinion_modifier = { target = PAC modifier = USA_dustbowl_refusal }
 		hidden_effect = {
-			reverse_add_opinion_modifier = { target = LIN modifier = USA_dustbowl_help }
 			reverse_add_opinion_modifier = { target = DES modifier = USA_dustbowl_help }
 			reverse_add_opinion_modifier = { target = LKH modifier = USA_dustbowl_help }
 		}
@@ -333,9 +405,7 @@ country_event = { #Dustbowl Plea For Help
 		add_political_power = -50
 		set_country_flag = USA_dustbowl_helped
 		reverse_add_opinion_modifier = { target = TEX modifier = USA_dustbowl_help }
-		reverse_add_opinion_modifier = { target = PAC modifier = USA_dustbowl_help }
 		hidden_effect = {
-			reverse_add_opinion_modifier = { target = LIN modifier = USA_dustbowl_help }
 			reverse_add_opinion_modifier = { target = DES modifier = USA_dustbowl_help }
 			reverse_add_opinion_modifier = { target = LKH modifier = USA_dustbowl_help }
 		}
@@ -345,17 +415,469 @@ country_event = { #Dustbowl Intensifies
 	id = tos_usa.8
 	title = tos_usa.8.t
 	desc = tos_usa.8.d
-	mean_time_to_happen = { days = 4 }
+#	mean_time_to_happen = { days = 4 }
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+#	trigger = { #Activated by the Texan event
+#		TAG = USA
+#		date > 1937.6.1 #Japanese date system
+#	}
+		
+	option = {
+		name = tos_usa.8.a
+		ai_chance = { factor = 100 }
+		set_global_flag = USA_dustbowl_intensifies
+		add_political_power = -50
+		swap_ideas = { 
+			remove_idea = USA_dust_bowl_idea
+			add_idea = USA_dust_bowl_intensified_idea 
+		}
+	}
+}
+country_event = { #Confederate Protests
+	id = tos_usa.9
+	title = tos_usa.9.t
+	desc = tos_usa.9.d
+	mean_time_to_happen = { days = 18 }
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = USA
+		OR = {
+			owns_state = 371
+			owns_state = 370
+			owns_state = 367
+			owns_state = 365
+			owns_state = 366
+			owns_state = 364
+			owns_state = 368
+		}
+		CNF = { exists = no }
+		date > 1937.10.8 #Japanese date system
+	}
+		
+	option = {
+		name = tos_usa.9.a #Give them independence
+		ai_chance = { factor = 34 }
+		add_political_power = -60
+		add_stability = -0.1
+		if = { 
+			limit = { owns_state = 371 }
+			CNF = { transfer_state = 371 
+			add_state_core = 371 }
+		}
+		if = { 
+			limit = { owns_state = 370 }
+			CNF = { transfer_state = 370
+			add_state_core = 370 }
+		}
+		if = { 
+			limit = { owns_state = 367 }
+			CNF = { transfer_state = 367
+			add_state_core = 367 }
+		}
+		if = { 
+			limit = { owns_state = 365 }
+			CNF = { transfer_state = 365
+			add_state_core = 365 }
+		}
+		if = { 
+			limit = { owns_state = 366 }
+			CNF = { transfer_state = 366
+			add_state_core = 366 }
+		}
+		if = { 
+			limit = { owns_state = 364 }
+			CNF = { transfer_state = 364
+			add_state_core = 364 }
+		}
+		if = { 
+			limit = { owns_state = 368 }
+			CNF = { transfer_state = 368
+			add_state_core = 368 }
+		}
+		USA = {
+			remove_state_core = 371
+			remove_state_core = 370
+			remove_state_core = 367
+			remove_state_core = 365
+			remove_state_core = 366
+			remove_state_core = 364
+			remove_state_core = 368
+			add_state_claim = 371
+			add_state_claim = 370
+			add_state_claim = 367
+			add_state_claim = 365
+			add_state_claim = 366
+			add_state_claim = 364
+			add_state_claim = 368
+		}
+	}
+	
+	option = {
+		name = tos_usa.9.b #Play as Disjointed Confederacy
+		ai_chance = { factor = 0 }
+		add_political_power = -60
+		add_stability = -0.1
+		if = { 
+			limit = { owns_state = 371 }
+			CNF = { transfer_state = 371 
+			add_state_core = 371 }
+		}
+		if = { 
+			limit = { owns_state = 370 }
+			CNF = { transfer_state = 370
+			add_state_core = 370 }
+		}
+		if = { 
+			limit = { owns_state = 367 }
+			CNF = { transfer_state = 367
+			add_state_core = 367 }
+		}
+		if = { 
+			limit = { owns_state = 365 }
+			CNF = { transfer_state = 365
+			add_state_core = 365 }
+		}
+		if = { 
+			limit = { owns_state = 366 }
+			CNF = { transfer_state = 366
+			add_state_core = 366 }
+		}
+		if = { 
+			limit = { owns_state = 364 }
+			CNF = { transfer_state = 364
+			add_state_core = 364 }
+		}
+		if = { 
+			limit = { owns_state = 368 }
+			CNF = { transfer_state = 368
+			add_state_core = 368 }
+		}
+		USA = {
+			remove_state_core = 371
+			remove_state_core = 370
+			remove_state_core = 367
+			remove_state_core = 365
+			remove_state_core = 366
+			remove_state_core = 364
+			remove_state_core = 368
+			add_state_claim = 371
+			add_state_claim = 370
+			add_state_claim = 367
+			add_state_claim = 365
+			add_state_claim = 366
+			add_state_claim = 364
+			add_state_claim = 368
+		}
+		CNF = { change_tag_from = USA }
+	}
+	
+	option = {
+		name = tos_usa.9.c #No independence for extremists
+		ai_chance = { factor = 66 }
+		add_political_power = -20
+		add_ideas =  USA_confederate_unrest_idea
+	}
+	
+}
+
+country_event = { #Confederate Protests
+	id = tos_usa.10
+	title = tos_usa.10.t
+	desc = tos_usa.10.d
+	mean_time_to_happen = { days = 21 }
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = USA
+		OR = {
+			owns_state = 371
+			owns_state = 370
+			owns_state = 367
+			owns_state = 365
+			owns_state = 366
+		}
+		CNF = { exists = no }
+		has_idea = USA_confederate_unrest_idea
+		date > 1938.2.1 #Japanese date system
+	}
+		
+	option = {
+		name = tos_usa.10.a #Confederate Revolt
+		ai_chance = { factor = 100 }
+		add_political_power = -80
+		remove_ideas = USA_confederate_unrest_idea
+		if = { 
+			limit = { owns_state = 371 }
+			CNF = { transfer_state = 371 }
+		}
+		if = { 
+			limit = { owns_state = 370 }
+			CNF = { transfer_state = 370 }
+		}
+		if = { 
+			limit = { owns_state = 367 }
+			CNF = { transfer_state = 367 }
+		}
+		if = { 
+			limit = { owns_state = 365 }
+			CNF = { transfer_state = 365 }
+		}
+		if = { 
+			limit = { owns_state = 366 }
+			CNF = { transfer_state = 366 }
+		}
+		CNF = {
+			add_state_core = 371
+			add_state_core = 370
+			add_state_core = 367
+			add_state_core = 365
+			add_state_core = 366
+			add_state_core = 375
+			add_state_core = 368
+		}
+		USA = {
+			remove_state_core = 371
+			remove_state_core = 370
+			remove_state_core = 367
+			remove_state_core = 365
+			remove_state_core = 366
+			add_state_claim = 371
+			add_state_claim = 370
+			add_state_claim = 367
+			add_state_claim = 365
+			add_state_claim = 366
+		}
+		declare_war_on = { target = CNF type = annex_everything }
+#		hidden_effect = { load_oob = CNF_initial_army }
+	}
+	
+	option = {
+		name = tos_usa.10.b #Play as the Confederacy
+		ai_chance = { factor = 0 }
+		add_political_power = -80
+		remove_ideas = USA_confederate_unrest_idea
+		if = { 
+			limit = { owns_state = 371 }
+			CNF = { transfer_state = 371 }
+		}
+		if = { 
+			limit = { owns_state = 370 }
+			CNF = { transfer_state = 370 }
+		}
+		if = { 
+			limit = { owns_state = 367 }
+			CNF = { transfer_state = 367 }
+		}
+		if = { 
+			limit = { owns_state = 365 }
+			CNF = { transfer_state = 365 }
+		}
+		if = { 
+			limit = { owns_state = 366 }
+			CNF = { transfer_state = 366 }
+		}
+		CNF = {
+			add_state_core = 371
+			add_state_core = 370
+			add_state_core = 367
+			add_state_core = 365
+			add_state_core = 366
+			add_state_core = 375
+			add_state_core = 368
+		}
+		USA = {
+			remove_state_core = 371
+			remove_state_core = 370
+			remove_state_core = 367
+			remove_state_core = 365
+			remove_state_core = 366
+			add_state_claim = 371
+			add_state_claim = 370
+			add_state_claim = 367
+			add_state_claim = 365
+			add_state_claim = 366
+		}
+		declare_war_on = { target = CNF type = annex_everything }
+#		hidden_effect = { load_oob = CNF_initial_army }
+		CNF = { change_tag_from = USA }
+	}
+	
+}
+
+country_event = { #Peace event
+	id = tos_usa.11
+	title = tos_usa.11.t
+	desc = tos_usa.11.d
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = USA
+		OR = {
+			surrender_progress > 0.8
+			AND = {
+				surrender_progress > 0.5
+				NOT = { controls_state = 361 }
+			}
+		}
+		has_war_with = CNF
+		CNF = { has_government = fascism }
+	}
+		
+	option = {
+		name = tos_usa.11.a #Cede Confederate territories
+		ai_chance = { factor = 95 }
+		white_peace = CNF
+		if = { 
+			limit = { owns_state = 372 }
+			CNF = { transfer_state = 372 add_state_core = 372 }
+		}
+		if = { 
+			limit = { owns_state = 373 }
+			CNF = { transfer_state = 373 add_state_core = 373 }
+		}
+		if = { 
+			limit = { owns_state = 363 }
+			CNF = { transfer_state = 363 add_state_core = 363 }
+		}
+		if = { 
+			limit = { owns_state = 362 }
+			CNF = { transfer_state = 362 add_state_core = 389 }
+		}
+		if = { 
+			limit = { owns_state = 368 }
+			CNF = { transfer_state = 368 add_state_core = 368 }
+		}
+		remove_state_core = 372
+		remove_state_core = 373
+		remove_state_core = 363
+		remove_state_core = 362
+		remove_state_core = 368
+	}
+	
+	option = {
+		name = tos_usa.11.b #No surrender
+		ai_chance = { factor = 5 }
+		add_political_power = -100
+		remove_state_core = 372
+		remove_state_core = 373
+		remove_state_core = 363
+		remove_state_core = 362
+		remove_state_core = 368
+	}
+	
+}
+
+country_event = { #Midwestern Federation declares independence
+	id = tos_usa.12
+	title = tos_usa.12.t
+	desc = tos_usa.12.d
+	mean_time_to_happen = { days = 7 }
 	fire_only_once = yes
 		
 	trigger = {
 		TAG = USA
-		date > 1937.6.1 #Japanese date system
+		OR = {
+			owns_state = 261 
+			owns_state = 393 
+			owns_state = 396 
+			owns_state = 395 
+		}
+		date > 1938.3.10 #Japanese date system
+		SUP = { exists = no }
 	}
 		
 	option = {
-		name = tos_usa.7.a
+		name = tos_usa.12.a
 		ai_chance = { factor = 100 }
+		if = { 
+			limit = { owns_state = 261 }
+			LKH = { transfer_state = 261 add_state_core = 261 }
+		}
+		if = { 
+			limit = { owns_state = 393 }
+			LKH = { transfer_state = 393 add_state_core = 393 }
+		}
+		if = { 
+			limit = { owns_state = 396 }
+			LKH = { transfer_state = 396 add_state_core = 396 }
+		}
+		if = { 
+			limit = { owns_state = 395 }
+			LKH = { transfer_state = 395 add_state_core = 395 }
+		}
+		USA = {
+			remove_state_core = 261
+			remove_state_core = 393
+			remove_state_core = 396
+			remove_state_core = 395
+			add_state_claim = 261
+			add_state_claim = 393
+			add_state_claim = 396
+			add_state_claim = 395
+		}
+		add_political_power = -50
+		add_stability = -0.05
+	}
+	option = {
+		name = tos_usa.12.b
+		ai_chance = { factor = 0 }
+		if = { 
+			limit = { owns_state = 261 }
+			LKH = { transfer_state = 261 add_state_core = 261 }
+		}
+		if = { 
+			limit = { owns_state = 393 }
+			LKH = { transfer_state = 393 add_state_core = 393 }
+		}
+		if = { 
+			limit = { owns_state = 396 }
+			LKH = { transfer_state = 396 add_state_core = 396 }
+		}
+		if = { 
+			limit = { owns_state = 395 }
+			LKH = { transfer_state = 395 add_state_core = 395 }
+		}
+		USA = {
+			remove_state_core = 261
+			remove_state_core = 393
+			remove_state_core = 396
+			remove_state_core = 395
+			add_state_claim = 261
+			add_state_claim = 393
+			add_state_claim = 396
+			add_state_claim = 395
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		SUP = { change_tag_from = USA }
+	}
+}
 
+country_event = { #Depression Stabilizing
+	id = tos_usa.13
+	title = tos_usa.13.t
+	desc = tos_usa.13.d
+	mean_time_to_happen = { days = 4 }
+	fire_only_once = yes
+	
+	trigger = { #Activated by the Texan event
+		TAG = USA
+		date > 1938.5.24 #Japanese date system
+	}
+		
+	option = {
+		name = tos_usa.13.a
+		ai_chance = { factor = 100 }
+		set_country_flag = USA_depression_stabilizing
+		add_political_power = 50
+		add_stability = 0.1
+		swap_ideas = { 
+			remove_idea = USA_great_depression_idea
+			add_idea = USA_great_depression_stabilizing_idea 
+		}
 	}
 }

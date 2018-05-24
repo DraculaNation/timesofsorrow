@@ -77,11 +77,35 @@
   tos_usa.6.b:0 "Down with the Federalist tyrants! (Play as Lakotah)"
   
   tos_usa.7.t:0 "States ask for Help!"
-  tos_usa.7.d:0 "Over the course of a couple of days, several states have requested us to spare some resources and help them in the Dust Bowl, which is currently roaring through most of the United States. We  could tell them to wait it out and risk more instability, or we could divert our resources, which are already spent on vital things, to those states. Though the help might not be much, it will still save some lives."
+  tos_usa.7.d:0 "Over the course of a couple of days, several states have requested us to spare some resources and help them in the Dust Bowl, which is currently roaring through a good part of the United States. We  could tell them to wait it out and risk more instability, or we could divert our resources, which are already spent on vital things, to those states. Though the help might not be much, it will still save some lives."
   tos_usa.7.a:0 "We can't do anything..."
   tos_usa.7.b:0 "Helping with the Dust Bowl is our top priority!"
-  tos_usa.7.c:0 "Texan Union and Pacific Federation are also a part of us!"
+  tos_usa.7.c:0 "The Texans are also a part of us!"
   
   tos_usa.8.t:0 "The Dust Bowl Intensifies!"
-  tos_usa.8.d:0 "Slowly but steadily, day by day, the Dust Bowl has been getting more dire. Today, it has reached critical levels for us to consider it a huge national emergency. Sadly, our rescue teams are very ineffective, and we are losing our grip on our westernmost states. This means that they're easy pickings for the other, seceded states. All in all, despite our western territories suffering, the East Coast is still relatively unaffected."
+  tos_usa.8.d:0 "Slowly but steadily, day by day, the Dust Bowl has been getting more dire. Today, it has reached critical levels for us to consider it a huge national emergency. Some even said that it breached into Vesperia! Sadly, our rescue teams are very ineffective, and we are losing our grip on our westernmost states. This means that they're easy pickings for the other, seceded states. All in all, despite our western territories suffering, the East Coast is still relatively unaffected."
   tos_usa.8.a:0 "It never seems to stop..."
+  
+  tos_usa.9.t:0 "Unrest in the South"
+  tos_usa.9.d:0 "As if things couldn't get weird enough, our Southern states have gained a huge degree of sympathy towards their Confederate background. People are protesting against our government, and their protests are usually full of Confederate separatism. Rumors say that a Grand Wizard of the KKK, Hiram Wesley Evans, is gaining a huge following among Confederate sympathizers. Though the people are full of unrest, the governors still support our government, and if we swallow our pride and recognize their independence, maybe we can put someone who's not an extremist. What should we do?"
+  tos_usa.9.a:0 "We can't let extremism spread. Put a democratic leader in charge!"
+  tos_usa.9.b:0 "The Confederacy will have a whole different meaning. (Play as the Confederacy)"
+  tos_usa.9.c:0 "We will not bend over to the extremists!"
+  
+  tos_usa.10.t:0 "The Confederacy Rebels!"
+  tos_usa.10.d:0 "As we have predicted, the Confederate sympathizers have seized control of the states where their influence is the strongest. With the states of Louisiana, Mississippi, Alabama, Georgia, and Florida seceding; it's no secret that yet another sizeable chunk of our country has fallen out of our control. Under the leadership of Hiram Wesley Evans, the Confederate soldiers have declared their second war of independence - marching into the zones outside of their effective control, and assaulting our institutions, such as the police and military. From this point on, it's only clear that we should respond with hostile actions."
+  tos_usa.10.a:0 "We will surpress the rebels!"
+  tos_usa.10.b:0 "The Confederacy will rise again! (Play as the Confederacy)"
+  
+  tos_usa.11.t:0 "Sue for Peace?"
+  tos_usa.11.d:0 "With the Confederate troops exhausting our army, and bringing more chaos to this already decimated country, we can ensure our survival by suing them for peace, and giving them all of their claimed territories. Shall we do it, or shall we fight to the very end?"
+  tos_usa.11.a:0 "The victory is theirs..."
+  tos_usa.11.b:0 "Never surrender!"
+  
+  tos_usa.12.t:0 "Midwestern Federation declares independence!"
+  tos_usa.12.d:0 "Today, the Midwestern federation has declared independence from our country, citing that they would need independence and local rule in order to recover from the Great Depression. With Martin L. Davey as their leader, the Midwesterners promised several Social Democratic reforms, as well as a huge tolerance towards the Trade Unions. Even though it seems that Socialism can stem from this nation, it is still unclear, and we have no choice but to organize their independence, in order to preserve our stability."
+  tos_usa.12.a:0 "Will this be the end of the USA?"
+  tos_usa.12.b:0 "The Midwest will prosper! (Play as the Midwestern Federation)"
+  
+  tos_usa.13.t:0 "Great Depression is Stabilizing"
+  tos_usa.13.d:0 ""
