@@ -76,17 +76,11 @@ add_ideas = {
 }
 
 
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
-}
-
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	name = "Al Smith"
+	desc = "POLITICS_AL_SMITH_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
+	expire = "1944.1.1"
 	ideology = centrism
 	traits = {
 	}
@@ -104,7 +98,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Earl Browder"
+	name = "Jay Lovestone"
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"

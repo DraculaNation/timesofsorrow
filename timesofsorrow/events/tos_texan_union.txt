@@ -1,0 +1,27 @@
+﻿add_namespace = texas
+
+country_event = {
+	id = texas.1
+	title = texas.1.t
+	desc = texas.1.d
+	mean_time_to_happen = { days = 4 }
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = TEX
+		date > 1937.6.1 #Japanese date system
+	}
+	
+	option = {
+		name = texas.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = -50
+		swap_ideas = { 
+			remove_idea = TEX_dust_bowl_idea
+			add_idea = TEX_dust_bowl_intensified_idea 
+		}
+		hidden_effect = {
+			USA = { country_event = { days = 1 id = tos_usa.8 } }
+		}
+	}	
+}

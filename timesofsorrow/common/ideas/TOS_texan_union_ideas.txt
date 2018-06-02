@@ -1,64 +1,59 @@
 ideas = {
 
-country = {
-	TEX_dust_bowl_idea = {
-		allowed = {
-			always = yes
-		}
-		
-		removal_cost = -1
-		
-		picture = generic_agrarian_society
-		
-		modifier = {
-			stability_factor = -0.3
-			trade_laws_cost_factor = 5
-			attrition = 0.3
-			MONTHLY_POPULATION = -0.5
-			consumer_goods_factor = 0.4
-			conscription_factor = -0.5
-			recon_factor = -0.2
-		}
-	}
+	country = {
 	
-	TEX_dust_bowl_intensified_idea = {
-		allowed = {
-			always = yes
+		TEX_dust_bowl_idea = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_agrarian_society
+			
+			modifier = {
+				stability_factor = -0.3
+				trade_laws_cost_factor = 5
+				attrition = 0.3
+				consumer_goods_factor = 0.4
+				conscription_factor = -0.5
+				recon_factor = -0.2
+			}
 		}
 		
-		removal_cost = -1
+		TEX_dust_bowl_intensified_idea = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_agrarian_society
+			
+			modifier = {
+				stability_factor = -0.5
+				trade_laws_cost_factor = 5
+				attrition = 0.6
+				MONTHLY_POPULATION = -0.2
+				consumer_goods_factor = 0.6
+				conscription_factor = -0.6
+				recon_factor = -0.4
+			}
+		}
 		
-		picture = generic_agrarian_society
-		
-		modifier = {
-			stability_factor = -0.5
-			trade_laws_cost_factor = 5
-			attrition = 0.6
-			MONTHLY_POPULATION = -0.7
-			consumer_goods_factor = 0.6
-			conscription_factor = -0.5
-			recon_factor = -0.4
+		TEX_dust_bowl_emmigration_idea = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_agrarian_society
+			
+			modifier = {
+				MONTHLY_POPULATION = -0.5
+			}
 		}
 	}
-	
-	TEX_dust_bowl_no_emigration_idea = {
-		allowed = {
-			always = yes
-		}
-		
-		removal_cost = -1
-		
-		picture = generic_agrarian_society
-		
-		modifier = {
-			stability_factor = -0.60
-			trade_laws_cost_factor = 5
-			attrition = 0.6
-			consumer_goods_factor = 0.55
-			conscription_factor = -0.5
-			recon_factor = -0.4
-		}
-	}
-}
 
 }

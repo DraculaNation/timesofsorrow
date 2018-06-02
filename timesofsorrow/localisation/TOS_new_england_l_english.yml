@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_Englander:
 
  ### Names
   NEW_fascism:0 "New England"
@@ -9,11 +9,21 @@
   NEW_communism_DEF:0 "New England"
   NEW_neutrality:0 "New England"
   NEW_neutrality_DEF:0 "New England"
-  NEW_fascism_ADJ:0 "New English"
-  NEW_democratic_ADJ:0 "New English"
-  NEW_communism_ADJ:0 "New English"
-  NEW_neutrality_ADJ:0 "New English"
+  NEW_fascism_ADJ:0 "New Englander"
+  NEW_democratic_ADJ:0 "New Englander"
+  NEW_communism_ADJ:0 "New Englander"
+  NEW_neutrality_ADJ:0 "New Englander"
 
+ ### Parties
+  NEW_communism_party:0 "TU"
+  NEW_democratic_party:0 "AP"
+  NEW_neutrality_party:0 "CM"
+  NEW_fascism_party:0 "SL"
+  NEW_communism_party_long:0 "Trade Unions"
+  NEW_democratic_party_long:0 "Absolute Party"
+  NEW_neutrality_party_long:0 "Constitutional Monarchists"
+  NEW_fascism_party_long:0 "Silver Legion"
+  
  ### Ideas
  
   ### Placeholder

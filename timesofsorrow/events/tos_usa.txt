@@ -864,9 +864,17 @@ country_event = { #Depression Stabilizing
 	mean_time_to_happen = { days = 4 }
 	fire_only_once = yes
 	
-	trigger = { #Activated by the Texan event
+	trigger = {
 		TAG = USA
-		date > 1938.5.24 #Japanese date system
+#		date > 1938.5.24 #Japanese date system
+		NOT = {
+			owns_state = 261
+			owns_state = 396
+			owns_state = 395
+			owns_state = 373
+			owns_state = 372
+		}
+		CNF = { exists = yes }
 	}
 		
 	option = {
@@ -881,3 +889,4 @@ country_event = { #Depression Stabilizing
 		}
 	}
 }
+

@@ -14,6 +14,16 @@
   TEX_communism_ADJ:0 "Texan"
   TEX_neutrality_ADJ:0 "Texan"
 
+ ### Parties
+  TEX_communism_party:0 "SPoT"
+  TEX_democratic_party:0 "TR"
+  TEX_neutrality_party:0 "LP"
+  TEX_fascism_party:0 "CoP"
+  TEX_communism_party_long:0 "Socialist Party of Texas"
+  TEX_democratic_party_long:0 "Texas Regulars"
+  TEX_neutrality_party_long:0 "Liberal Party"
+  TEX_fascism_party_long:0 "Cowboy Party"
+  
  ### Ideas
  
   ### Placeholder
@@ -24,4 +34,6 @@
   
  ### Events
  
-  ### Placeholder
+  texas.1.t:0 "The Dust Bowl Intensifies!"
+  texas.1.d:0 "Slowly but steadily, day by day, the Dust Bowl has been getting more dire. As soon as our people have started somewhat adapting to it, it got even worse, and therefore caught many off guard. Today, it has reached critical levels for us to consider it a huge emergency. Some even said that it breached into Vesperia! As we're both a poor country, and in the midst of it, there is nothing much we can do except grit our teeth and start deploying some countermeasures... if we can. However, this may also mean that the old government's westernmost states will suffer from various issues such as being cut off. This may make way for our already hardened troops to enter these zones, and seize control for ourselves."
+  texas.1.a:0 "A true Texan never gives up!"

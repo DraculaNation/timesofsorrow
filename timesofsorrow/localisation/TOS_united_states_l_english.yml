@@ -26,6 +26,16 @@
   USA_columbia_neutrality_ADJ:0 "Columbian"
   USA_columbia_communism_ADJ:0 "Columbian"
 
+ ### Parties
+  USA_communism_party:0 "SPA"
+  USA_democratic_party:0 "CP"
+  USA_neutrality_party:0 "DRP"
+  USA_fascism_party:0 "GAP"
+  USA_communism_party_long:0 "Socialist Party of America"
+  USA_democratic_party_long:0 "Constitutionalist Party"
+  USA_neutrality_party_long:0 "Democratic-Republican Party"
+  USA_fascism_party_long:0 "Great American Party"
+  
  ### Opinions
  
   USA_dustbowl_help:0 "Helped us with the Dust Bowl"
@@ -108,4 +118,5 @@
   tos_usa.12.b:0 "The Midwest will prosper! (Play as the Midwestern Federation)"
   
   tos_usa.13.t:0 "Great Depression is Stabilizing"
-  tos_usa.13.d:0 ""
+  tos_usa.13.d:0 "Today, our president, [USA.GetLeader] has announced that the economic situation of the USA is stabilizing. Even though the states that aren't directly under our control are still in a disarray, the ones that are have begun their economic recovery. This has enabled us to focus our efforts into rebuilding our economy, therefore making the recovery quicker. We can finally focus on bigger projects, and perhaps reclaiming our lost lands."
+  tos_usa.13.a:0 "God bless America!"

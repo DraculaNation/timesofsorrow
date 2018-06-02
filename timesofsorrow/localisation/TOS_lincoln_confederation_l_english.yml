@@ -14,6 +14,17 @@
   LIN_communism_ADJ:0 "Lincolnite"
   LIN_neutrality_ADJ:0 "Lincolnite"
  
+ ### Parties
+  LIN_communism_party:0 "CP"
+  LIN_democratic_party:0 "BC"
+  LIN_neutrality_party:0 "GP"
+  LIN_fascism_party:0 "WEP"
+  LIN_communism_party_long:0 "Communist Party"
+  LIN_democratic_party_long:0 "Bureaucratic Coalition"
+  LIN_neutrality_party_long:0 "Green Party"
+  LIN_fascism_party_long:0 "White Ethnic Party"
+  
+ 
  ### Ideas
  
   LIN_green_industry_idea:0 "Green Industry"

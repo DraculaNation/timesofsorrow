@@ -20,6 +20,8 @@ set_convoys = 100
 
 set_country_flag = american_splinter_state
 add_ideas = tos_svr_partially_recognized
+add_ideas = TEX_dust_bowl_idea
+add_ideas = TEX_dust_bowl_emmigration_idea
 
 set_politics = {
 
